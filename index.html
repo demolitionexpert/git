@@ -39,7 +39,7 @@
       "name": "The Demolition Experts",
       "image": "",
       "telephone": "0300-4648222",
-      "email": "rabnawaztrader@gmail.com",
+      "email": "rabnawaztraders@gmail.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Gulberg Green",
@@ -97,6 +97,15 @@
         </div>
     </section>
 
+    <!-- Trust & Safety Highlights Bar (New Drawback Fix) -->
+    <section style="background: #181818; border-top: 1px solid #222; border-bottom: 1px solid #222; padding: 20px 5%;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; text-align: center; color: #fff;">
+            <div style="font-size: 0.9rem;"><i class="fa-solid fa-shield-halved" style="color: #ffb703; margin-right: 8px;"></i> <strong>Licensed & Insured</strong> Operators</div>
+            <div style="font-size: 0.9rem;"><i class="fa-solid fa-house-chimney-crack" style="color: #ffb703; margin-right: 8px;"></i> <strong>Zero Neighbor Damage</strong> Guarantee</div>
+            <div style="font-size: 0.9rem;"><i class="fa-solid fa-bolt" style="color: #ffb703; margin-right: 8px;"></i> <strong>Fast Execution</strong> & Timely Cleanup</div>
+        </div>
+    </section>
+
     <!-- Trust / Location Bar -->
     <section class="trust-banner">
         <div class="trust-item"><i class="fa-solid fa-shield-halved"></i> 100% Safe & Controlled Operations</div>
@@ -131,10 +140,10 @@
         </div>
     </section>
 
-    <!-- Project Gallery Section (Using Real Photos) -->
+    <!-- Project Gallery Section (Enhanced with Transformation Context) -->
     <section id="gallery" style="padding: 60px 5%; background: #121212; text-align: center;">
         <h2 style="color: #fff; font-size: 2rem; margin-bottom: 10px;">Our Demolition & Site Clearance Projects</h2>
-        <p style="color: #aaa; margin-bottom: 40px; font-size: 0.95rem;">Real operations, heavy machinery, and structural breakdown projects across the Twin Cities.</p>
+        <p style="color: #aaa; margin-bottom: 40px; font-size: 0.95rem;">Real operations showcasing complete structural teardowns and final plot cleanups across the Twin Cities.</p>
         
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
             
@@ -144,7 +153,8 @@
                     <img src="image1.jpg" alt="Commercial Structure Demolition" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
                 </div>
                 <div style="padding: 15px;">
-                    <h4 style="color: #fff; margin-bottom: 5px;">Commercial Structure Demolition</h4>
+                    <span style="background: #333; color: #ffb703; font-size: 0.75rem; padding: 3px 8px; border-radius: 4px; text-transform: uppercase;">Active Wrecking</span>
+                    <h4 style="color: #fff; margin: 8px 0 5px 0;">Commercial Structure Demolition</h4>
                     <p style="color: #888; font-size: 0.85rem;">Islamabad & Rawalpindi</p>
                 </div>
             </div>
@@ -155,7 +165,8 @@
                     <img src="image2.jpg" alt="Heavy Machinery Site Clearance" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
                 </div>
                 <div style="padding: 15px;">
-                    <h4 style="color: #fff; margin-bottom: 5px;">Heavy Machinery & Plot Leveling</h4>
+                    <span style="background: #333; color: #ffb703; font-size: 0.75rem; padding: 3px 8px; border-radius: 4px; text-transform: uppercase;">Post-Clearance Leveling</span>
+                    <h4 style="color: #fff; margin: 8px 0 5px 0;">Heavy Machinery & Plot Leveling</h4>
                     <p style="color: #888; font-size: 0.85rem;">Gulberg Greens & DHA</p>
                 </div>
             </div>
@@ -166,7 +177,8 @@
                     <img src="image3.jpg" alt="Building Dismantling Works" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
                 </div>
                 <div style="padding: 15px;">
-                    <h4 style="color: #fff; margin-bottom: 5px;">House Breaking & Debris Removal</h4>
+                    <span style="background: #333; color: #ffb703; font-size: 0.75rem; padding: 3px 8px; border-radius: 4px; text-transform: uppercase;">Debris Hauling</span>
+                    <h4 style="color: #fff; margin: 8px 0 5px 0;">House Breaking & Debris Removal</h4>
                     <p style="color: #888; font-size: 0.85rem;">Bahria Town & Surroundings</p>
                 </div>
             </div>
@@ -286,21 +298,22 @@
                 </div>
 
                 <p><i class="fa-solid fa-phone"></i> <strong>Phone Call:</strong> <a href="tel:03004648222" style="color: #ffb703; text-decoration: none;">0300-4648222</a></p>
-                <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> rabnawaztrader@gmail.com</p>
+                <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> rabnawaztraders@gmail.com</p>
                 <p class="service-areas"><strong>Service Areas:</strong> Islamabad, Rawalpindi, Gulberg Greens, DHA Islamabad/Rawalpindi, Bahria Town, Peshawar Road, G-sectors, F-sectors.</p>
             </div>
 
-            <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you! Your inquiry has been submitted. We will contact you shortly.');">
+            <!-- Upgraded Functional Contact Form (Connected to rabnawaztraders@gmail.com via Formspree endpoint) -->
+            <form class="contact-form" action="https://formspree.io/f/rabnawaztraders@gmail.com" method="POST">
                 <h3>Request a Free Quote</h3>
-                <input type="text" placeholder="Your Full Name" required>
-                <input type="tel" placeholder="Phone Number (e.g. 0300xxxxxxx)" required>
-                <select required>
+                <input type="text" name="name" placeholder="Your Full Name" required>
+                <input type="tel" name="phone" placeholder="Phone Number (e.g. 0300xxxxxxx)" required>
+                <select name="service" required>
                     <option value="" disabled selected>Select Service Type</option>
                     <option value="building-demolition">Building Demolition</option>
                     <option value="dismantling">Structural Dismantling</option>
                     <option value="site-clearance">Site Clearance & Debris Removal</option>
                 </select>
-                <textarea placeholder="Describe your project (Location size, building type, timeline)..." rows="4" required></textarea>
+                <textarea name="message" placeholder="Describe your project (Location size, building type, timeline)..." rows="4" required></textarea>
                 <button type="submit" class="btn-primary" style="width: 100%; cursor: pointer;">Submit Inquiry</button>
             </form>
         </div>
@@ -310,6 +323,7 @@
     <footer>
         <p>&copy; 2026 The Demolition Experts. All Rights Reserved. | Serving Islamabad & Rawalpindi</p>
         <p style="font-size: 0.85rem; color: #777; margin-top: 5px;">Building Demolition • House Dismantling • Site Clearance • Rubble Removal</p>
+        <p style="font-size: 0.85rem; color: #ffb703; margin-top: 5px;">Contact Email: rabnawaztraders@gmail.com</p>
     </footer>
 
     <!-- Service Details Modal Popup -->
