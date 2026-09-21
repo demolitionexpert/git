@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="100%" height="100%">
+  <defs>
+    <!-- Dark gradient overlay -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a" />
+      <stop offset="50%" stop-color="#141414" />
+      <stop offset="100%" stop-color="#1c1c1c" />
+    </linearGradient>
+
+    <!-- Construction Yellow Accent Gradient -->
+    <linearGradient id="yellowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffb703" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#e5a400" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Technical Grid Pattern -->
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#262626" stroke-width="1" />
+      <path d="M 60 60 L 0 60" fill="none" stroke="#1f1f1f" stroke-width="0.5" />
+    </pattern>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Abstract Blueprint / Structural Elements -->
+  <g opacity="0.15">
+    <!-- Building wireframe representation -->
+    <path d="M 1200 1080 L 1200 400 L 1600 600 L 1600 1080 Z" fill="none" stroke="#ffb703" stroke-width="2" stroke-dasharray="10 5" />
+    <path d="M 1300 1080 L 1300 500 L 1500 600 L 1500 1080 Z" fill="none" stroke="#ffffff" stroke-width="1" />
+    
+    <!-- Dynamic geometric angle lines suggesting heavy breaking/demolition -->
+    <line x1="0" y1="1080" x2="800" y2="0" stroke="url(#yellowGrad)" stroke-width="4" />
+    <line x1="200" y1="1080" x2="1000" y2="0" stroke="#333333" stroke-width="2" />
+    <line x1="1400" y1="1080" x2="1920" y2="200" stroke="url(#yellowGrad)" stroke-width="3" />
+  </g>
+
+  <!-- Safety Stripe Accent Bar at the bottom edge -->
+  <pattern id="stripes" width="40" height="40" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#ffb703" stroke-width="20" />
+    <line x1="20" y1="0" x2="20" y2="40" stroke="#111111" stroke-width="20" />
+  </pattern>
+  <rect x="0" y="1070" width="100%" height="10" fill="url(#stripes)" />
+
+  <!-- Central Glow Effect -->
+  <circle cx="960" cy="400" r="400" fill="#ffb703" opacity="0.04" filter="blur(50px)" />
+</svg>
