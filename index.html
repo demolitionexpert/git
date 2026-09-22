@@ -3,153 +3,389 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>The Demolition Experts | Building Demolition & Site Clearance Islamabad & Rawalpindi</title>
+    <title>The Demolition Experts | Building Demolition & Site Clearance in Islamabad & Rawalpindi</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Professional building demolition, house breaking, and site clearance in Islamabad & Rawalpindi. 12+ years experience, 340+ projects completed. Call 0300-4648222.">
-    <meta name="keywords" content="demolition company islamabad, building demolition rawalpindi, house breaking services, site clearance islamabad, rubble removal, dhai demolition contractors">
+    <meta name="description" content="Looking for professional building demolition, house dismantling, and site clearance services in Islamabad and Rawalpindi? Call The Demolition Experts at 0300-4648222 for safe, fast, and affordable demolition services.">
+    <meta name="keywords" content="demolition company islamabad, building demolition rawalpindi, house breaking services, concrete breaking, dismantling contractors, site clearance islamabad, rubble removal, excavator rental demolition, commercial demolition pakistan">
     <meta name="author" content="The Demolition Experts">
+    
+    <!-- Open Graph / Social SEO -->
+    <meta property="og:title" content="The Demolition Experts | Demolition & Site Clearance Islamabad">
+    <meta property="og:description" content="Safe, professional building demolition, dismantling, and debris clearance across Islamabad and Rawalpindi.">
+    <meta property="og:type" content="website">
 
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; font-size: 16px; }
+        /* Mobile-First Global Resets */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+
         body {
             background-color: #0b0b0b;
             color: #e0e0e0;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.5;
             overflow-x: hidden;
-            padding-bottom: 60px; /* Space for sticky mobile footer */
         }
 
         /* Top Bar */
-        .top-bar { background: #050505; border-bottom: 1px solid #1f1f1f; padding: 8px 16px; }
-        .top-bar-content { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: #aaa; }
-        .top-bar-content a { color: #ffb703; text-decoration: none; font-weight: bold; }
+        .top-bar {
+            background: #050505;
+            border-bottom: 1px solid #1f1f1f;
+            padding: 8px 12px;
+        }
+        .top-bar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.75rem;
+            color: #aaa;
+        }
+        .top-bar-content a {
+            color: #ffb703;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-        /* Header & Navbar */
+        /* Mobile-First Header & Navbar */
         header {
-            background: #111; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center;
-            border-bottom: 1px solid #222; position: sticky; top: 0; z-index: 1000;
+            background: #111;
+            padding: 12px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #222;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
-        .site-logo { max-height: 38px; width: auto; display: block; }
-        .menu-toggle { background: none; border: none; color: #ffb703; font-size: 1.5rem; cursor: pointer; padding: 4px; }
-        header nav {
-            display: none; position: absolute; top: 100%; left: 0; width: 100%;
-            background: #121212; border-bottom: 2px solid #ffb703; box-shadow: 0 10px 25px rgba(0,0,0,0.8); z-index: 1001;
-        }
-        header nav.active { display: block; }
-        header nav ul { list-style: none; padding: 16px; display: flex; flex-direction: column; gap: 12px; text-align: center; }
-        header nav ul li a { color: #fff; text-decoration: none; font-size: 1.05rem; display: block; padding: 8px; border-radius: 4px; }
-        header nav ul li a:hover, header nav ul li a.btn-nav { background: #ffb703; color: #000; font-weight: bold; }
 
-        /* Hero Section */
+        .site-logo {
+            max-height: 38px;
+            width: auto;
+            display: block;
+        }
+
+        .menu-toggle {
+            background: none;
+            border: none;
+            color: #ffb703;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 4px;
+        }
+
+        header nav {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background: #121212;
+            border-bottom: 2px solid #ffb703;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+            z-index: 1001;
+        }
+
+        header nav.active {
+            display: block;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            text-align: center;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.05rem;
+            display: block;
+            padding: 8px;
+            border-radius: 4px;
+        }
+
+        header nav ul li a:hover, header nav ul li a.btn-nav {
+            background: #ffb703;
+            color: #000;
+            font-weight: bold;
+        }
+
+        /* Professional Header & Hero Background */
         .hero {
-            position: relative; padding: 50px 16px;
+            position: relative;
+            padding: 50px 16px;
             background: linear-gradient(135deg, rgba(10,10,10,0.92) 0%, rgba(20,15,5,0.85) 100%), url('image1.jpg') center/cover no-repeat;
-            text-align: center; border-bottom: 3px solid #ffb703;
+            text-align: center;
+            border-bottom: 3px solid #ffb703;
         }
+
+        .hero-content {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
         .badge {
-            background: rgba(255,183,3,0.15); color: #ffb703; padding: 6px 14px; border-radius: 20px;
-            font-size: 0.75rem; font-weight: 700; display: inline-block; margin-bottom: 12px;
-            border: 1px solid rgba(255,183,3,0.3); text-transform: uppercase;
+            background: rgba(255,183,3,0.15);
+            color: #ffb703;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            display: inline-block;
+            margin-bottom: 12px;
+            border: 1px solid rgba(255,183,3,0.3);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
-        .hero h2 { color: #fff; font-size: 1.7rem; margin-bottom: 14px; line-height: 1.25; font-weight: 800; }
-        .hero p { color: #ccc; font-size: 0.95rem; margin-bottom: 24px; line-height: 1.5; }
-        .hero-btns { display: flex; flex-direction: column; gap: 12px; }
+
+        .hero h2 {
+            color: #fff;
+            font-size: 1.7rem;
+            margin-bottom: 14px;
+            line-height: 1.25;
+            font-weight: 800;
+        }
+
+        .hero p {
+            color: #ccc;
+            font-size: 0.95rem;
+            margin-bottom: 24px;
+            line-height: 1.5;
+        }
+
+        .hero-btns {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
 
         .btn-primary {
-            background: #ffb703; color: #000; padding: 14px 20px; border-radius: 6px;
-            text-decoration: none; font-weight: 800; font-size: 1rem; display: inline-block; text-align: center;
+            background: #ffb703;
+            color: #000;
+            padding: 14px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 800;
+            font-size: 1rem;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(255,183,3,0.3);
+            text-align: center;
         }
+
         .btn-secondary {
-            background: transparent; border: 2px solid #ffb703; color: #ffb703; padding: 12px 20px;
-            border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 1rem; display: inline-block; text-align: center;
+            background: transparent;
+            border: 2px solid #ffb703;
+            color: #ffb703;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            display: inline-block;
+            text-align: center;
         }
 
-        /* Trust & Stats Bar */
-        .stats-grid {
-            display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; background: #141414; padding: 20px 16px;
-            border-bottom: 1px solid #222; text-align: center;
+        /* Trust Bar */
+        .trust-banner {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            background: #141414;
+            padding: 16px;
+            color: #bbb;
+            font-size: 0.82rem;
+            text-align: center;
+            border-bottom: 1px solid #222;
         }
-        .stat-item h3 { color: #ffb703; font-size: 1.3rem; font-weight: 800; }
-        .stat-item p { color: #aaa; font-size: 0.75rem; text-transform: uppercase; margin-top: 2px; }
 
-        section { padding: 45px 16px; }
-        .section-title { color: #fff; font-size: 1.5rem; margin-bottom: 8px; text-align: center; font-weight: 800; }
-        .section-sub { color: #aaa; font-size: 0.9rem; margin-bottom: 30px; text-align: center; }
+        /* Section Layouts */
+        section {
+            padding: 45px 16px;
+        }
 
-        .grid-1 { display: grid; grid-template-columns: 1fr; gap: 16px; }
-        .card { background: #161616; padding: 20px; border-radius: 8px; border: 1px solid #242424; }
+        .section-title {
+            color: #fff;
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+            text-align: center;
+            font-weight: 800;
+        }
 
-        /* Before/After Slider Component */
-        .ba-container {
-            position: relative; width: 100%; height: 240px; border-radius: 8px; overflow: hidden; margin-bottom: 15px;
-            user-select: none;
+        .section-sub {
+            color: #aaa;
+            font-size: 0.9rem;
+            margin-bottom: 30px;
+            text-align: center;
         }
-        .ba-img {
-            position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover; background-position: center;
-        }
-        .ba-before { background-image: url('image1.jpg'); }
-        .ba-after { background-image: url('image2.jpg'); width: 50%; border-right: 3px solid #ffb703; z-index: 2; }
-        .ba-slider-range {
-            position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; cursor: ew-resize; z-index: 10;
-        }
-        .ba-label {
-            position: absolute; bottom: 10px; background: rgba(0,0,0,0.7); color: #ffb703; padding: 3px 8px;
-            font-size: 0.75rem; font-weight: bold; border-radius: 4px; z-index: 5;
-        }
-        .ba-label.before { right: 10px; }
-        .ba-label.after { left: 10px; }
 
-        /* Pricing Table Cards */
-        .price-badge {
-            display: inline-block; background: rgba(255,183,3,0.1); color: #ffb703; border: 1px solid rgba(255,183,3,0.3);
-            padding: 4px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; margin-top: 10px;
+        /* Cards & Grids */
+        .grid-1 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+
+        .card {
+            background: #161616;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #242424;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .service-card {
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+        .service-card:active {
+            border-color: #ffb703;
+        }
+
+        /* Gallery Grid */
+        .gallery-item {
+            background: #141414;
+            border: 1px solid #222;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .gallery-img-wrap {
+            height: 180px;
+            overflow: hidden;
+        }
+        .gallery-img-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .gallery-info {
+            padding: 14px;
         }
 
         /* Forms & Inputs */
-        .contact-wrapper { display: grid; grid-template-columns: 1fr; gap: 20px; }
-        .form-box, .info-box { background: #161616; padding: 20px; border-radius: 8px; border: 1px solid #242424; }
+        .contact-wrapper {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .form-box, .info-box {
+            background: #161616;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #242424;
+        }
+
         input, select, textarea {
-            width: 100%; padding: 13px; background: #0d0d0d; border: 1px solid #333; border-radius: 6px;
-            color: #fff; font-size: 0.95rem; margin-bottom: 12px;
+            width: 100%;
+            padding: 13px;
+            background: #0d0d0d;
+            border: 1px solid #333;
+            border-radius: 6px;
+            color: #fff;
+            font-size: 0.95rem;
+            margin-bottom: 12px;
         }
-        input:focus, select:focus, textarea:focus { border-color: #ffb703; outline: none; }
 
-        /* Sticky Mobile Footer */
-        .sticky-mobile-bar {
-            display: flex; position: fixed; bottom: 0; left: 0; width: 100%; height: 60px; background: #111;
-            border-top: 2px solid #ffb703; z-index: 1400; box-shadow: 0 -5px 15px rgba(0,0,0,0.8);
+        input:focus, select:focus, textarea:focus {
+            border-color: #ffb703;
+            outline: none;
         }
-        .sticky-btn {
-            flex: 1; display: flex; justify-content: center; align-items: center; gap: 8px; text-decoration: none;
-            font-weight: bold; font-size: 0.95rem;
+
+        /* Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.85);
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+            padding: 16px;
         }
-        .sticky-btn.call { background: #1a1a1a; color: #fff; border-right: 1px solid #333; }
-        .sticky-btn.wa { background: #25d366; color: #fff; }
+        .modal-content {
+            background: #181818;
+            border: 1px solid #ffb703;
+            padding: 22px;
+            border-radius: 8px;
+            width: 100%;
+            position: relative;
+            color: #fff;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
 
-        footer { background: #070707; color: #777; padding: 25px 16px; text-align: center; border-top: 1px solid #1a1a1a; font-size: 0.8rem; }
+        /* Floating WhatsApp */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 26px;
+            box-shadow: 0 4px 15px rgba(37,211,102,0.4);
+            z-index: 1500;
+            text-decoration: none;
+        }
 
-        /* Desktop media queries */
+        footer {
+            background: #070707;
+            color: #777;
+            padding: 25px 16px;
+            text-align: center;
+            border-top: 1px solid #1a1a1a;
+            font-size: 0.8rem;
+        }
+
+        /* Desktop media queries for larger screens */
         @media (min-width: 768px) {
-            body { padding-bottom: 0; }
-            .sticky-mobile-bar { display: none; }
             .top-bar-content { font-size: 0.9rem; padding: 8px 5%; }
             header { padding: 15px 5%; }
             .menu-toggle { display: none; }
-            header nav { display: block !important; position: static; width: auto; background: transparent; border: none; box-shadow: none; }
-            header nav ul { flex-direction: row; padding: 0; gap: 20px; }
+            header nav {
+                display: block !important;
+                position: static;
+                width: auto;
+                background: transparent;
+                border: none;
+                box-shadow: none;
+            }
+            header nav ul {
+                flex-direction: row;
+                padding: 0;
+                gap: 20px;
+            }
             header nav ul li a { padding: 6px 12px; font-size: 0.95rem; }
             header nav ul li a.btn-nav { padding: 8px 15px; border-radius: 4px; }
             .hero { padding: 80px 5%; }
-            .hero h2 { font-size: 2.4rem; max-width: 800px; margin: 0 auto 14px auto; }
-            .hero p { font-size: 1.05rem; max-width: 700px; margin: 0 auto 24px auto; }
+            .hero h2 { font-size: 2.4rem; max-width: 800px; margin-left: auto; margin-right: auto; }
+            .hero p { font-size: 1.05rem; max-width: 700px; margin-left: auto; margin-right: auto; }
             .hero-btns { flex-direction: row; justify-content: center; }
-            .stats-grid { grid-template-columns: repeat(4, 1fr); padding: 25px 5%; }
+            .trust-banner { grid-template-columns: repeat(3, 1fr); font-size: 0.9rem; padding: 15px 5%; }
             .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
             .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
             .contact-wrapper { grid-template-columns: 1fr 1fr; gap: 30px; max-width: 1000px; margin: 0 auto; }
@@ -157,26 +393,24 @@
         }
     </style>
 
-    <!-- Local Business Schema with Credentials -->
+    <!-- Local Business Schema Markup for SEO -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "The Demolition Experts",
-      "image": "",
       "telephone": "0300-4648222",
-      "email": "info@demolitionexperts.pk",
+      "email": "rabnawaztraders@gmail.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Office #4, Plaza 23, Gulberg Greens",
+        "streetAddress": "Gulberg Green",
         "addressLocality": "Islamabad",
         "addressRegion": "Punjab",
         "addressCountry": "PK"
       },
-      "foundingDate": "2014",
-      "areaServed": ["Islamabad", "Rawalpindi", "Gulberg Greens", "Bahria Town", "DHA"],
-      "priceRange": "PKR",
-      "description": "Licensed structural demolition, house dismantling, and site clearance contractors operating since 2014 with 340+ successfully completed projects."
+      "areaServed": ["Islamabad", "Rawalpindi", "Gulberg Green", "Bahria Town", "DHA"],
+      "priceRange": "$$",
+      "description": "Professional building demolition, structural dismantling, and site clearance contractors in Islamabad and Rawalpindi."
     }
     </script>
 </head>
@@ -185,8 +419,8 @@
     <!-- Top Bar -->
     <div class="top-bar">
         <div class="top-bar-content">
-            <span><i class="fa-solid fa-location-dot" style="color: #ffb703;"></i> Gulberg Greens, Islamabad (Est. 2014)</span>
-            <a href="tel:03004648222"><i class="fa-solid fa-phone"></i> 0300-4648222 (Response &lt; 30 Mins)</a>
+            <span><i class="fa-solid fa-location-dot" style="color: #ffb703;"></i> Gulberg Green, Islamabad & Rawalpindi</span>
+            <a href="tel:03004648222"><i class="fa-solid fa-phone"></i> 0300-4648222</a>
         </div>
     </div>
 
@@ -203,214 +437,215 @@
         <nav id="navMenu">
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#proof">Proof & Safety</a></li>
-                <li><a href="#services">Services & Pricing</a></li>
-                <li><a href="#projects">Before/After</a></li>
-                <li><a href="#contact">Get Quote</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Projects</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact" class="btn-nav">Get a Quote</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Section with Professional Background -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <span class="badge">NTN Verified & Fully Insured Contractors</span>
-            <h2>Safe, Certified Building Demolition & Site Clearance in Islamabad & Rawalpindi</h2>
-            <p>Zero neighbor-damage guarantee backed by 12+ years of field experience and 340+ completed structural breakdowns.</p>
+            <span class="badge">#1 Demolition Contractors in Twin Cities</span>
+            <h2>Safe, Precise & Fast Building Demolition in Islamabad & Rawalpindi</h2>
+            <p>Specializing in Commercial Building Demolition, House Breaking, Structural Dismantling, and Complete Site Clearance.</p>
             <div class="hero-btns">
-                <a href="tel:03004648222" class="btn-primary"><i class="fa-solid fa-phone"></i> Call Direct: 0300-4648222</a>
-                <a href="#contact" class="btn-secondary">Get Estimate in 30 Mins</a>
+                <a href="tel:03004648222" class="btn-primary"><i class="fa-solid fa-phone"></i> Call Now: 0300-4648222</a>
+                <a href="#contact" class="btn-secondary">Request Estimate</a>
             </div>
         </div>
     </section>
 
-    <!-- Trust & Stats Bar -->
-    <div class="stats-grid">
-        <div class="stat-item">
-            <h3>12+ Years</h3>
-            <p>In Business</p>
-        </div>
-        <div class="stat-item">
-            <h3>340+</h3>
-            <p>Projects Finished</p>
-        </div>
-        <div class="stat-item">
-            <h3>100%</h3>
-            <p>Safety Record</p>
-        </div>
-        <div class="stat-item">
-            <h3>NTN 849210-4</h3>
-            <p>Registered Firm</p>
-        </div>
+    <!-- Trust Bar -->
+    <div class="trust-banner">
+        <div><i class="fa-solid fa-shield-halved" style="color: #ffb703;"></i> 100% Safe Operations</div>
+        <div><i class="fa-solid fa-city" style="color: #ffb703;"></i> Islamabad & Rawalpindi</div>
+        <div><i class="fa-solid fa-clock" style="color: #ffb703;"></i> Fast Debris Removal</div>
     </div>
 
-    <!-- About & Safety Section (Addressing Fear of Neighbor Damage) -->
-    <section id="proof">
-        <h2 class="section-title">Safety, Insurance & Company Background</h2>
-        <p class="section-sub">Why property owners across DHA, Bahria Town, and Islamabad trust our crew with high-risk structural drops.</p>
-
-        <div class="grid-1 grid-2">
-            <div class="card">
-                <h3 style="color: #ffb703; margin-bottom: 12px; font-size: 1.1rem;"><i class="fa-solid fa-shield-halved"></i> Our Safety & Insurance Guarantee</h3>
-                <p style="font-size: 0.9rem; color: #ccc; line-height: 1.6; margin-bottom: 10px;">
-                    Demolishing a building adjacent to occupied homes in congested urban areas is high-risk. We protect you completely:
-                </p>
-                <ul style="font-size: 0.88rem; color: #bbb; padding-left: 18px; display: flex; flex-direction: column; gap: 6px;">
-                    <li><strong>Third-Party Liability Cover:</strong> Full contractor coverage protecting adjoining boundary walls and property.</li>
-                    <li><strong>Controlled Mechanical Drop:</strong> Precision excavator reach prevents uncontrolled street debris scatter.</li>
-                    <li><strong>Dust Suppression:</strong> High-pressure water misters deployed continuously to comply with environmental guidelines.</li>
-                </ul>
-            </div>
-
-            <div class="card">
-                <h3 style="color: #ffb703; margin-bottom: 12px; font-size: 1.1rem;"><i class="fa-solid fa-user-tie"></i> Company Story & Leadership</h3>
-                <p style="font-size: 0.9rem; color: #ccc; line-height: 1.6;">
-                    Founded in 2014 in Gulberg Greens, <strong>The Demolition Experts</strong> started as a specialized manual dismantling contractor and grew into the Twin Cities' premier heavy-machinery demolition outfit. Led by seasoned civil engineers and veteran equipment operators, we manage everything from single-unit house breaking to multi-story commercial plaza teardowns.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services & Transparent Pricing Guidance -->
-    <section id="services" style="background: #111;">
-        <h2 class="section-title">Services & Transparent Pricing</h2>
-        <p class="section-sub">No hidden fees. Ballpark estimates based on standard plot sizes in Islamabad & Rawalpindi.</p>
-
+    <!-- Services Section -->
+    <section id="services">
+        <h2 class="section-title">Our Demolition Services</h2>
+        <p class="section-sub">Tap any service below to view full specifications.</p>
+        
         <div class="grid-1 grid-3">
-            <div class="card">
-                <i class="fa-solid fa-house-chimney-crack" style="color: #ffb703; font-size: 1.8rem; margin-bottom: 10px;"></i>
-                <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 6px;">House Breaking & Teardown</h3>
-                <p style="font-size: 0.88rem; color: #aaa; margin-bottom: 10px;">Complete residential structure razing, foundation extraction, and clearing.</p>
-                <div class="price-badge">Starting from PKR 15,000 / Marla</div>
+            <div class="card service-card" onclick="openModal('building-demolition')">
+                <i class="fa-solid fa-building-ngo" style="color: #ffb703; font-size: 2rem; margin-bottom: 12px;"></i>
+                <h3 style="color: #fff; margin-bottom: 8px; font-size: 1.1rem;">Building Demolition</h3>
+                <p style="color: #ccc; font-size: 0.88rem;">Complete structural demolition for plazas, houses, and commercial structures using advanced excavators.</p>
+                <span style="display: inline-block; margin-top: 12px; color: #ffb703; font-size: 0.85rem; font-weight: bold;">View Details &rarr;</span>
             </div>
-
-            <div class="card">
-                <i class="fa-solid fa-building" style="color: #ffb703; font-size: 1.8rem; margin-bottom: 10px;"></i>
-                <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 6px;">Commercial Plaza Wrecking</h3>
-                <p style="font-size: 0.88rem; color: #aaa; margin-bottom: 10px;">Multi-story reinforced concrete breakdown using heavy hydraulic excavators.</p>
-                <div class="price-badge">Custom Quote (Site Inspection Req.)</div>
+            
+            <div class="card service-card" onclick="openModal('dismantling')">
+                <i class="fa-solid fa-hammer" style="color: #ffb703; font-size: 2rem; margin-bottom: 12px;"></i>
+                <h3 style="color: #fff; margin-bottom: 8px; font-size: 1.1rem;">Structural Dismantling</h3>
+                <p style="color: #ccc; font-size: 0.88rem;">Precise interior/exterior selective dismantling, wall cutting, and material salvaging with zero collateral damage.</p>
+                <span style="display: inline-block; margin-top: 12px; color: #ffb703; font-size: 0.85rem; font-weight: bold;">View Details &rarr;</span>
             </div>
-
-            <div class="card">
-                <i class="fa-solid fa-truck-ramp-box" style="color: #ffb703; font-size: 1.8rem; margin-bottom: 10px;"></i>
-                <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 6px;">Site Clearance & Rubble Haulage</h3>
-                <p style="font-size: 0.88rem; color: #aaa; margin-bottom: 10px;">Debris loading via dump trucks, earth moving, and complete plot leveling.</p>
-                <div class="price-badge">Starting from PKR 10,000 / Marla</div>
+            
+            <div class="card service-card" onclick="openModal('site-clearance')">
+                <i class="fa-solid fa-truck-ramp-box" style="color: #ffb703; font-size: 2rem; margin-bottom: 12px;"></i>
+                <h3 style="color: #fff; margin-bottom: 8px; font-size: 1.1rem;">Site Clearance & Debris</h3>
+                <p style="color: #ccc; font-size: 0.88rem;">Total ground leveling, earth moving, rubble loading, and complete plot cleanup ready for new construction.</p>
+                <span style="display: inline-block; margin-top: 12px; color: #ffb703; font-size: 0.85rem; font-weight: bold;">View Details &rarr;</span>
             </div>
         </div>
     </section>
 
-    <!-- Before/After Project Showcase -->
-    <section id="projects">
-        <h2 class="section-title">Before / After Case Studies</h2>
-        <p class="section-sub">Drag the slider or check project specs from actual operations in the Twin Cities.</p>
+    <!-- Project Gallery Section -->
+    <section id="gallery" style="background: #111;">
+        <h2 class="section-title">Recent Projects</h2>
+        <p class="section-sub">Real operations across the Twin Cities.</p>
+        
+        <div class="grid-1 grid-3">
+            <div class="gallery-item">
+                <div class="gallery-img-wrap">
+                    <img src="image1.jpg" alt="Commercial Structure Demolition">
+                </div>
+                <div class="gallery-info">
+                    <span style="background: #222; color: #ffb703; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px;">Active Wrecking</span>
+                    <h4 style="color: #fff; margin: 6px 0 4px 0; font-size: 0.95rem;">Commercial Plaza Demolition</h4>
+                    <p style="color: #888; font-size: 0.8rem;">Islamabad</p>
+                </div>
+            </div>
 
+            <div class="gallery-item">
+                <div class="gallery-img-wrap">
+                    <img src="image2.jpg" alt="Heavy Machinery Site Clearance">
+                </div>
+                <div class="gallery-info">
+                    <span style="background: #222; color: #ffb703; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px;">Plot Leveling</span>
+                    <h4 style="color: #fff; margin: 6px 0 4px 0; font-size: 0.95rem;">Heavy Machinery Clearance</h4>
+                    <p style="color: #888; font-size: 0.8rem;">Gulberg Greens</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <div class="gallery-img-wrap">
+                    <img src="image3.jpg" alt="House Breaking & Debris">
+                </div>
+                <div class="gallery-info">
+                    <span style="background: #222; color: #ffb703; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px;">Debris Hauling</span>
+                    <h4 style="color: #fff; margin: 6px 0 4px 0; font-size: 0.95rem;">House Breaking & Rubble</h4>
+                    <p style="color: #888; font-size: 0.8rem;">Bahria Town</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-us">
+        <h2 class="section-title">Why Choose Us?</h2>
+        <p class="section-sub">Built on reliability, speed, and safety.</p>
+        
         <div class="grid-1 grid-2">
-            <!-- Project 1 -->
             <div class="card">
-                <div class="ba-container" id="ba1">
-                    <div class="ba-img ba-before"></div>
-                    <div class="ba-img ba-after" id="baAfter1"></div>
-                    <input type="range" min="0" max="100" value="50" class="ba-slider-range" oninput="slideBa(this, 'baAfter1')">
-                    <span class="ba-label before">Before</span>
-                    <span class="ba-label after">After</span>
-                </div>
-                <h4 style="color: #fff; font-size: 1.05rem; margin-bottom: 6px;">Commercial Plaza Teardown</h4>
-                <p style="font-size: 0.85rem; color: #aaa; line-height: 1.5;">
-                    <strong>Location:</strong> Gulberg Greens, Islamabad<br>
-                    <strong>Plot Size:</strong> 1 Kanal | <strong>Duration:</strong> 6 Days<br>
-                    <strong>Scope:</strong> 3-story concrete structure demolition, steel salvage separation, and total debris clearance.
-                </p>
+                <i class="fa-solid fa-gears" style="color: #ffb703; font-size: 1.5rem; margin-bottom: 10px;"></i>
+                <h4 style="color: #fff; margin-bottom: 6px; font-size: 1rem;">Modern Equipment</h4>
+                <p style="color: #aaa; font-size: 0.88rem;">Equipped with heavy hydraulic excavators and breakers for fast execution.</p>
             </div>
-
-            <!-- Project 2 -->
             <div class="card">
-                <div class="ba-container" id="ba2">
-                    <div class="ba-img ba-before"></div>
-                    <div class="ba-img ba-after" id="baAfter2"></div>
-                    <input type="range" min="0" max="100" value="50" class="ba-slider-range" oninput="slideBa(this, 'baAfter2')">
-                    <span class="ba-label before">Before</span>
-                    <span class="ba-label after">After</span>
-                </div>
-                <h4 style="color: #fff; font-size: 1.05rem; margin-bottom: 6px;">Residential House Dismantling</h4>
-                <p style="font-size: 0.85rem; color: #aaa; line-height: 1.5;">
-                    <strong>Location:</strong> DHA Phase 2, Islamabad<br>
-                    <strong>Plot Size:</strong> 10 Marla | <strong>Duration:</strong> 3 Days<br>
-                    <strong>Scope:</strong> Controlled wall breaking, safe neighbor boundary preservation, and ground leveling.
-                </p>
+                <i class="fa-solid fa-user-shield" style="color: #ffb703; font-size: 1.5rem; margin-bottom: 10px;"></i>
+                <h4 style="color: #fff; margin-bottom: 6px; font-size: 1rem;">Experienced Crew</h4>
+                <p style="color: #aaa; font-size: 0.88rem;">Fully trained teams adhering to strict urban safety and neighbor protocols.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-tags" style="color: #ffb703; font-size: 1.5rem; margin-bottom: 10px;"></i>
+                <h4 style="color: #fff; margin-bottom: 6px; font-size: 1rem;">Competitive Rates</h4>
+                <p style="color: #aaa; font-size: 0.88rem;">Affordable market pricing for all-inclusive breaking and cleanup packages.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-map-location-dot" style="color: #ffb703; font-size: 1.5rem; margin-bottom: 10px;"></i>
+                <h4 style="color: #fff; margin-bottom: 6px; font-size: 1rem;">Local Expertise</h4>
+                <p style="color: #aaa; font-size: 0.88rem;">Based in Gulberg Green, serving Islamabad and Rawalpindi instantly.</p>
             </div>
         </div>
     </section>
 
-    <!-- Contact & Verified Lead Form -->
-    <section id="contact" style="background: #111;">
-        <h2 class="section-title">Request a Guaranteed Quote</h2>
-        <p class="section-sub">We respond within 30 minutes. Direct WhatsApp inquiries receive fastest estimates.</p>
+    <!-- FAQ Section -->
+    <section id="faq" style="background: #111;">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-sub">Everything you need to know about our work.</p>
+
+        <div class="grid-1" style="max-width: 800px; margin: 0 auto;">
+            <div class="card">
+                <h4 style="color: #ffb703; font-size: 0.95rem; margin-bottom: 6px;"><i class="fa-solid fa-circle-question"></i> What areas do you serve?</h4>
+                <p style="color: #ccc; font-size: 0.88rem;">We cover all sectors of Islamabad, Rawalpindi, Gulberg Greens, DHA, and Bahria Town.</p>
+            </div>
+            <div class="card" style="margin-top: 12px;">
+                <h4 style="color: #ffb703; font-size: 0.95rem; margin-bottom: 6px;"><i class="fa-solid fa-circle-question"></i> Is debris removal included?</h4>
+                <p style="color: #ccc; font-size: 0.88rem;">Yes! Our packages include complete rubble loading, haulage, and final ground leveling.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Quote Section -->
+    <section id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-sub">Get your free quote today.</p>
         
         <div class="contact-wrapper">
             <div class="info-box">
-                <h3 style="color: #ffb703; margin-bottom: 15px; font-size: 1.1rem;">Direct Office Contact</h3>
-                <p style="margin-bottom: 12px; font-size: 0.9rem;"><i class="fa-solid fa-location-dot" style="color: #ffb703; margin-right: 6px;"></i> <strong>Office:</strong> Office #4, Plaza 23, Gulberg Greens, Islamabad</p>
+                <h3 style="color: #ffb703; margin-bottom: 15px; font-size: 1.1rem;">Direct Contact</h3>
+                <p style="margin-bottom: 12px; font-size: 0.9rem;"><i class="fa-solid fa-location-dot" style="color: #ffb703; margin-right: 6px;"></i> <strong>Office:</strong> Gulberg Green, Islamabad</p>
                 
-                <!-- WhatsApp Quick Box -->
                 <div style="margin: 15px 0; background: rgba(37, 211, 102, 0.1); border: 1px solid #25d366; padding: 12px; border-radius: 6px; text-align: center;">
-                    <a href="https://wa.me/923004648222?text=Hello%2C%20I%20need%20a%20demolition%20quote%20for%20my%20plot." target="_blank" style="color: #25d366; text-decoration: none; font-weight: bold; font-size: 0.95rem; display: block;">
-                        <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i> Instant WhatsApp Quote (0300-4648222)
+                    <a href="https://wa.me/923004648222?text=Hello%2C%20I%20need%20a%20quote%20for%20demolition." target="_blank" style="color: #25d366; text-decoration: none; font-weight: bold; font-size: 0.95rem; display: block;">
+                        <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i> Chat on WhatsApp (0300-4648222)
                     </a>
                 </div>
 
                 <p style="margin-bottom: 10px; font-size: 0.9rem;"><i class="fa-solid fa-phone" style="color: #ffb703; margin-right: 6px;"></i> <a href="tel:03004648222" style="color: #ffb703; text-decoration: none;">0300-4648222</a></p>
-                <p style="font-size: 0.9rem; margin-bottom: 20px;"><i class="fa-solid fa-envelope" style="color: #ffb703; margin-right: 6px;"></i> info@demolitionexperts.pk</p>
-
-                <!-- Google Maps Embed -->
-                <div style="width: 100%; height: 180px; border-radius: 6px; overflow: hidden; border: 1px solid #333;">
-                    <iframe title="Gulberg Greens Office Location" width="100%" height="100%" style="border:0;" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.8596041724!2d73.135!3d33.595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDM1JzQyLjAiTiA3M8KwMDgnMDYuMCJF!5e0!3m2!1sen!2spk!4v1650000000000"></iframe>
-                </div>
+                <p style="font-size: 0.9rem;"><i class="fa-solid fa-envelope" style="color: #ffb703; margin-right: 6px;"></i> rabnawaztraders@gmail.com</p>
             </div>
 
-            <!-- Action-Ready Quote Form (With Plot Size & Storeys) -->
             <form class="form-box" action="https://formspree.io/f/rabnawaztraders@gmail.com" method="POST">
-                <h3 style="color: #ffb703; margin-bottom: 12px; font-size: 1.1rem;">Project Inquiry Form</h3>
-                <input type="text" name="name" placeholder="Your Full Name" required>
-                <input type="tel" name="phone" placeholder="Phone / WhatsApp (0300xxxxxxx)" required>
-                
-                <div class="grid-2" style="gap: 0; margin-bottom: 0;">
-                    <input type="text" name="plot_size" placeholder="Plot Size (e.g. 10 Marla / 1 Kanal)" required style="margin-bottom: 12px;">
-                    <select name="storeys" required style="margin-bottom: 12px;">
-                        <option value="" disabled selected>Building Storeys</option>
-                        <option value="Single Storey">Single Storey</option>
-                        <option value="Double Storey">Double Storey</option>
-                        <option value="Multi-Storey Plaza">Multi-Storey Plaza</option>
-                        <option value="Empty Plot Clearance">Empty Plot / Rubble Only</option>
-                    </select>
-                </div>
-
+                <h3 style="color: #ffb703; margin-bottom: 12px; font-size: 1.1rem;">Request Estimate</h3>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="tel" name="phone" placeholder="Phone Number (0300xxxxxxx)" required>
                 <select name="service" required>
-                    <option value="" disabled selected>Select Primary Service</option>
-                    <option value="House Demolition">House Breaking & Demolition</option>
-                    <option value="Commercial Demolition">Commercial Plaza Teardown</option>
-                    <option value="Site Clearance">Site Clearance & Rubble Removal</option>
+                    <option value="" disabled selected>Select Service</option>
+                    <option value="building-demolition">Building Demolition</option>
+                    <option value="dismantling">Structural Dismantling</option>
+                    <option value="site-clearance">Site Clearance</option>
                 </select>
-                
-                <textarea name="message" placeholder="Location details (e.g. DHA Phase 2, Islamabad)..." rows="3" required></textarea>
-                <button type="submit" class="btn-primary" style="width: 100%; border: none; cursor: pointer;">Send Quote Request</button>
+                <textarea name="message" placeholder="Project Details (Location, Size)..." rows="3" required></textarea>
+                <button type="submit" class="btn-primary" style="width: 100%; border: none; cursor: pointer;">Submit Inquiry</button>
             </form>
         </div>
     </section>
 
-    <!-- Sticky Mobile Footer Bar -->
-    <div class="sticky-mobile-bar">
-        <a href="tel:03004648222" class="sticky-btn call"><i class="fa-solid fa-phone" style="color: #ffb703;"></i> Call Now</a>
-        <a href="https://wa.me/923004648222?text=Hello%2C%20I%20want%20a%20quote%20for%20demolition." target="_blank" class="sticky-btn wa"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-    </div>
-
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 The Demolition Experts. NTN: 849210-4. All Rights Reserved.</p>
-        <p style="margin-top: 4px; color: #555;">Serving Islamabad, Rawalpindi, Gulberg Greens, DHA & Bahria Town</p>
+        <p>&copy; 2026 The Demolition Experts. All Rights Reserved.</p>
+        <p style="margin-top: 4px; color: #555;">Islamabad & Rawalpindi</p>
     </footer>
 
-    <!-- JavaScript for Mobile Menu & Before/After Slider -->
+    <!-- Service Details Modal -->
+    <div id="serviceModal" class="modal-overlay">
+        <div class="modal-content">
+            <button onclick="closeModal()" style="position: absolute; top: 12px; right: 12px; background: none; border: none; color: #ffb703; font-size: 1.3rem; cursor: pointer;"><i class="fa-solid fa-xmark"></i></button>
+            <h3 id="modalTitle" style="color: #ffb703; margin-bottom: 10px; font-size: 1.2rem;"></h3>
+            <p id="modalDesc" style="color: #ccc; line-height: 1.5; margin-bottom: 15px; font-size: 0.9rem;"></p>
+            <div style="background: #111; padding: 12px; border-radius: 6px; margin-bottom: 15px;">
+                <h4 style="color: #fff; margin-bottom: 6px; font-size: 0.9rem;"><i class="fa-solid fa-circle-check" style="color: #ffb703;"></i> Features:</h4>
+                <p id="modalFeatures" style="color: #aaa; font-size: 0.85rem; line-height: 1.4;"></p>
+            </div>
+            <a href="#contact" onclick="closeModal()" class="btn-primary" style="display: block; text-align: center; text-decoration: none;">Book Service</a>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/923004648222?text=Hello%2C%20I%20want%20to%20inquire%20about%20demolition%20services." 
+       target="_blank" 
+       class="whatsapp-float">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
     <script>
         function toggleMenu() {
             document.getElementById('navMenu').classList.toggle('active');
@@ -422,10 +657,43 @@
             });
         });
 
-        // Before/After Image Slider interaction logic
-        function slideBa(slider, afterId) {
-            const afterElement = document.getElementById(afterId);
-            afterElement.style.width = slider.value + '%';
+        const serviceDetails = {
+            'building-demolition': {
+                title: 'Commercial & Residential Building Demolition',
+                desc: 'Large-scale structural teardowns for plazas and multi-story buildings across Islamabad and Rawalpindi.',
+                features: 'Equipped with heavy hydraulic excavators, long-reach breakers, and certified wrecking operators.'
+            },
+            'dismantling': {
+                title: 'Precise Structural Dismantling',
+                desc: 'Selective interior teardowns, roof removals, and partition wall cutting in congested urban locations.',
+                features: 'Manual and semi-mechanical cutting with zero collateral damage to adjacent properties.'
+            },
+            'site-clearance': {
+                title: 'Site Clearance & Rubble Removal',
+                desc: 'Clearing debris, foundation extraction, and total ground leveling so your plot is ready for fresh construction.',
+                features: 'Bulldozers, loaders, and dump trucks for rapid hauling and soil leveling.'
+            }
+        };
+
+        function openModal(serviceKey) {
+            const data = serviceDetails[serviceKey];
+            if (data) {
+                document.getElementById('modalTitle').innerText = data.title;
+                document.getElementById('modalDesc').innerText = data.desc;
+                document.getElementById('modalFeatures').innerText = data.features;
+                document.getElementById('serviceModal').style.display = 'flex';
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('serviceModal').style.display = 'none';
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('serviceModal');
+            if (event.target === modal) {
+                closeModal();
+            }
         }
     </script>
 </body>
