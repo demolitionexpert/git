@@ -2,3588 +2,431 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>The Demolition Experts | Building Demolition & Site Clearance Islamabad & Rawalpindi</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Professional building demolition, house breaking, and site clearance in Islamabad & Rawalpindi. 12+ years experience, 340+ projects completed. Call 0300-4648222.">
+    <meta name="keywords" content="demolition company islamabad, building demolition rawalpindi, house breaking services, site clearance islamabad, rubble removal, dhai demolition contractors">
+    <meta name="author" content="The Demolition Experts">
 
-    <meta name="author" content="Building Materials Suppliers in Islamabad and Rawalpindi">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+        body {
+            background-color: #0b0b0b;
+            color: #e0e0e0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            overflow-x: hidden;
+            padding-bottom: 60px; /* Space for sticky mobile footer */
+        }
 
-    <title>Al-Sayed Building Materials | Bricks, Cement, Sand & Crush in Islamabad & Rawalpindi</title>
+        /* Top Bar */
+        .top-bar { background: #050505; border-bottom: 1px solid #1f1f1f; padding: 8px 16px; }
+        .top-bar-content { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; color: #aaa; }
+        .top-bar-content a { color: #ffb703; text-decoration: none; font-weight: bold; }
 
-    <meta name="description"
-          content="Al-Sayed Building Materials supplies bricks, cement, sand, stone crush and construction materials in Islamabad & Rawalpindi, with delivery support and easy quotation by phone or WhatsApp.">
+        /* Header & Navbar */
+        header {
+            background: #111; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center;
+            border-bottom: 1px solid #222; position: sticky; top: 0; z-index: 1000;
+        }
+        .site-logo { max-height: 38px; width: auto; display: block; }
+        .menu-toggle { background: none; border: none; color: #ffb703; font-size: 1.5rem; cursor: pointer; padding: 4px; }
+        header nav {
+            display: none; position: absolute; top: 100%; left: 0; width: 100%;
+            background: #121212; border-bottom: 2px solid #ffb703; box-shadow: 0 10px 25px rgba(0,0,0,0.8); z-index: 1001;
+        }
+        header nav.active { display: block; }
+        header nav ul { list-style: none; padding: 16px; display: flex; flex-direction: column; gap: 12px; text-align: center; }
+        header nav ul li a { color: #fff; text-decoration: none; font-size: 1.05rem; display: block; padding: 8px; border-radius: 4px; }
+        header nav ul li a:hover, header nav ul li a.btn-nav { background: #ffb703; color: #000; font-weight: bold; }
 
-    <meta name="robots" content="index, follow">
+        /* Hero Section */
+        .hero {
+            position: relative; padding: 50px 16px;
+            background: linear-gradient(135deg, rgba(10,10,10,0.92) 0%, rgba(20,15,5,0.85) 100%), url('image1.jpg') center/cover no-repeat;
+            text-align: center; border-bottom: 3px solid #ffb703;
+        }
+        .badge {
+            background: rgba(255,183,3,0.15); color: #ffb703; padding: 6px 14px; border-radius: 20px;
+            font-size: 0.75rem; font-weight: 700; display: inline-block; margin-bottom: 12px;
+            border: 1px solid rgba(255,183,3,0.3); text-transform: uppercase;
+        }
+        .hero h2 { color: #fff; font-size: 1.7rem; margin-bottom: 14px; line-height: 1.25; font-weight: 800; }
+        .hero p { color: #ccc; font-size: 0.95rem; margin-bottom: 24px; line-height: 1.5; }
+        .hero-btns { display: flex; flex-direction: column; gap: 12px; }
 
-    <link rel="canonical" href="https://alsayedbuildingmaterials.com/">
+        .btn-primary {
+            background: #ffb703; color: #000; padding: 14px 20px; border-radius: 6px;
+            text-decoration: none; font-weight: 800; font-size: 1rem; display: inline-block; text-align: center;
+        }
+        .btn-secondary {
+            background: transparent; border: 2px solid #ffb703; color: #ffb703; padding: 12px 20px;
+            border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 1rem; display: inline-block; text-align: center;
+        }
 
-    <meta name="theme-color" content="#0b1220">
-    <meta name="format-detection" content="telephone=no">
+        /* Trust & Stats Bar */
+        .stats-grid {
+            display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; background: #141414; padding: 20px 16px;
+            border-bottom: 1px solid #222; text-align: center;
+        }
+        .stat-item h3 { color: #ffb703; font-size: 1.3rem; font-weight: 800; }
+        .stat-item p { color: #aaa; font-size: 0.75rem; text-transform: uppercase; margin-top: 2px; }
 
-    <!-- Open Graph -->
-    <meta property="og:title"
-          content="Al-Sayed Building Materials | Islamabad & Rawalpindi">
+        section { padding: 45px 16px; }
+        .section-title { color: #fff; font-size: 1.5rem; margin-bottom: 8px; text-align: center; font-weight: 800; }
+        .section-sub { color: #aaa; font-size: 0.9rem; margin-bottom: 30px; text-align: center; }
 
-    <meta property="og:description"
-          content="Reliable with standard quality building material supply and delivery across Islamabad and Rawalpindi.">
+        .grid-1 { display: grid; grid-template-columns: 1fr; gap: 16px; }
+        .card { background: #161616; padding: 20px; border-radius: 8px; border: 1px solid #242424; }
 
-    <meta property="og:url"
-          content="https://alsayedbuildingmaterials.com/">
+        /* Before/After Slider Component */
+        .ba-container {
+            position: relative; width: 100%; height: 240px; border-radius: 8px; overflow: hidden; margin-bottom: 15px;
+            user-select: none;
+        }
+        .ba-img {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover; background-position: center;
+        }
+        .ba-before { background-image: url('image1.jpg'); }
+        .ba-after { background-image: url('image2.jpg'); width: 50%; border-right: 3px solid #ffb703; z-index: 2; }
+        .ba-slider-range {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; cursor: ew-resize; z-index: 10;
+        }
+        .ba-label {
+            position: absolute; bottom: 10px; background: rgba(0,0,0,0.7); color: #ffb703; padding: 3px 8px;
+            font-size: 0.75rem; font-weight: bold; border-radius: 4px; z-index: 5;
+        }
+        .ba-label.before { right: 10px; }
+        .ba-label.after { left: 10px; }
 
-    <meta property="og:type" content="website">
+        /* Pricing Table Cards */
+        .price-badge {
+            display: inline-block; background: rgba(255,183,3,0.1); color: #ffb703; border: 1px solid rgba(255,183,3,0.3);
+            padding: 4px 10px; border-radius: 4px; font-size: 0.8rem; font-weight: bold; margin-top: 10px;
+        }
 
-    <meta property="og:image"
-          content="https://alsayedbuildingmaterials.com/background.jpg">
+        /* Forms & Inputs */
+        .contact-wrapper { display: grid; grid-template-columns: 1fr; gap: 20px; }
+        .form-box, .info-box { background: #161616; padding: 20px; border-radius: 8px; border: 1px solid #242424; }
+        input, select, textarea {
+            width: 100%; padding: 13px; background: #0d0d0d; border: 1px solid #333; border-radius: 6px;
+            color: #fff; font-size: 0.95rem; margin-bottom: 12px;
+        }
+        input:focus, select:focus, textarea:focus { border-color: #ffb703; outline: none; }
 
-    <meta property="og:image:alt"
-          content="Al-Sayed Building Materials in Islamabad and Rawalpindi">
+        /* Sticky Mobile Footer */
+        .sticky-mobile-bar {
+            display: flex; position: fixed; bottom: 0; left: 0; width: 100%; height: 60px; background: #111;
+            border-top: 2px solid #ffb703; z-index: 1400; box-shadow: 0 -5px 15px rgba(0,0,0,0.8);
+        }
+        .sticky-btn {
+            flex: 1; display: flex; justify-content: center; align-items: center; gap: 8px; text-decoration: none;
+            font-weight: bold; font-size: 0.95rem;
+        }
+        .sticky-btn.call { background: #1a1a1a; color: #fff; border-right: 1px solid #333; }
+        .sticky-btn.wa { background: #25d366; color: #fff; }
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title"
-          content="Al-Sayed Building Materials | Islamabad & Rawalpindi">
-    <meta name="twitter:description"
-          content="Bricks, cement, sand, stone crush and construction material supply in Islamabad and Rawalpindi.">
-    <meta name="twitter:image"
-          content="https://alsayedbuildingmaterials.com/background.jpg">
+        footer { background: #070707; color: #777; padding: 25px 16px; text-align: center; border-top: 1px solid #1a1a1a; font-size: 0.8rem; }
 
-    <!-- Local business structured data -->
+        /* Desktop media queries */
+        @media (min-width: 768px) {
+            body { padding-bottom: 0; }
+            .sticky-mobile-bar { display: none; }
+            .top-bar-content { font-size: 0.9rem; padding: 8px 5%; }
+            header { padding: 15px 5%; }
+            .menu-toggle { display: none; }
+            header nav { display: block !important; position: static; width: auto; background: transparent; border: none; box-shadow: none; }
+            header nav ul { flex-direction: row; padding: 0; gap: 20px; }
+            header nav ul li a { padding: 6px 12px; font-size: 0.95rem; }
+            header nav ul li a.btn-nav { padding: 8px 15px; border-radius: 4px; }
+            .hero { padding: 80px 5%; }
+            .hero h2 { font-size: 2.4rem; max-width: 800px; margin: 0 auto 14px auto; }
+            .hero p { font-size: 1.05rem; max-width: 700px; margin: 0 auto 24px auto; }
+            .hero-btns { flex-direction: row; justify-content: center; }
+            .stats-grid { grid-template-columns: repeat(4, 1fr); padding: 25px 5%; }
+            .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+            .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+            .contact-wrapper { grid-template-columns: 1fr 1fr; gap: 30px; max-width: 1000px; margin: 0 auto; }
+            section { padding: 60px 8%; }
+        }
+    </style>
+
+    <!-- Local Business Schema with Credentials -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "@id": "https://alsayedbuildingmaterials.com/#business",
-      "name": "Al-Sayed Building Materials",
-      "url": "https://alsayedbuildingmaterials.com/",
-      "logo": "https://alsayedbuildingmaterials.com/logo.png",
-      "image": "https://alsayedbuildingmaterials.com/background.jpg",
-      "telephone": "+923109871812",
-      "description": "Building materials supplier serving Islamabad and Rawalpindi with bricks, cement, sand, stone crush and construction material supply.",
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Islamabad"
-        },
-        {
-          "@type": "City",
-          "name": "Rawalpindi"
-        }
-      ],
-      "knowsAbout": [
-        "Bricks",
-        "Cement",
-        "Construction sand",
-        "Stone crush",
-        "Building materials"
-      ]
+      "name": "The Demolition Experts",
+      "image": "",
+      "telephone": "0300-4648222",
+      "email": "info@demolitionexperts.pk",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Office #4, Plaza 23, Gulberg Greens",
+        "addressLocality": "Islamabad",
+        "addressRegion": "Punjab",
+        "addressCountry": "PK"
+      },
+      "foundingDate": "2014",
+      "areaServed": ["Islamabad", "Rawalpindi", "Gulberg Greens", "Bahria Town", "DHA"],
+      "priceRange": "PKR",
+      "description": "Licensed structural demolition, house dismantling, and site clearance contractors operating since 2014 with 340+ successfully completed projects."
     }
     </script>
-
-    <meta property="og:site_name"
-          content="Al-Sayed Building Materials">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="logo.png">
-
-    <link rel="preconnect" href="https://wa.me">
-    <link rel="preload" as="image" href="background.jpg">
-
-    <style>
-
-        .skip-link {
-            position: fixed;
-            left: 12px;
-            top: 12px;
-            z-index: 3000;
-            transform: translateY(-150%);
-            padding: 10px 14px;
-            border-radius: 8px;
-            background: #ffffff;
-            color: #07111f;
-            font-weight: 800;
-            transition: transform .2s ease;
-        }
-
-        .skip-link:focus {
-            transform: translateY(0);
-        }
-
-        :root {
-            --navy: #07111f;
-            --navy-2: #0b1627;
-            --navy-3: #101d30;
-
-            --orange: #f97316;
-            --orange-dark: #ea580c;
-            --orange-light: #fb923c;
-
-            --blue: #0284c7;
-            --blue-light: #38bdf8;
-
-            --white: #ffffff;
-            --text: #e5e7eb;
-            --muted: #94a3b8;
-
-            --border: rgba(255,255,255,0.09);
-
-            --shadow: 0 20px 50px rgba(0,0,0,0.28);
-
-            --radius: 18px;
-
-            --max-width: 1180px;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family:
-                Inter,
-                ui-sans-serif,
-                system-ui,
-                -apple-system,
-                BlinkMacSystemFont,
-                "Segoe UI",
-                sans-serif;
-
-            background: var(--navy);
-            color: var(--text);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        img {
-            max-width: 100%;
-            display: block;
-        }
-
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-
-        button,
-        input,
-        select,
-        textarea {
-            font: inherit;
-        }
-
-        button {
-            cursor: pointer;
-        }
-
-        .container {
-            width: min(
-                calc(100% - 32px),
-                var(--max-width)
-            );
-
-            margin-inline: auto;
-        }
-
-        .section {
-            padding: 90px 0;
-        }
-
-        .section-dark {
-            background: var(--navy);
-        }
-
-        .section-light-dark {
-            background: var(--navy-2);
-        }
-
-        .section-heading {
-            max-width: 760px;
-            margin-bottom: 42px;
-        }
-
-        .eyebrow {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-
-            color: var(--orange-light);
-
-            font-size: 13px;
-            font-weight: 800;
-
-            text-transform: uppercase;
-            letter-spacing: 1.4px;
-
-            margin-bottom: 12px;
-        }
-
-        .eyebrow::before {
-            content: "";
-
-            width: 28px;
-            height: 2px;
-
-            background: var(--orange);
-        }
-
-        h1,
-        h2,
-        h3,
-        h4 {
-            line-height: 1.15;
-        }
-
-        h2 {
-            font-size: clamp(30px, 4vw, 46px);
-            color: var(--white);
-            margin-bottom: 15px;
-        }
-
-        .section-heading p {
-            color: var(--muted);
-            font-size: 17px;
-        }
-
-        /* =========================
-           BUTTONS
-        ========================= */
-
-        .btn {
-            display: inline-flex;
-
-            align-items: center;
-            justify-content: center;
-            gap: 9px;
-
-            min-height: 48px;
-
-            padding: 0 21px;
-
-            border-radius: 10px;
-
-            border: 1px solid transparent;
-
-            font-weight: 800;
-            font-size: 15px;
-
-            transition:
-                transform .2s ease,
-                background .2s ease,
-                border-color .2s ease,
-                box-shadow .2s ease;
-        }
-
-        .btn:hover {
-            transform: translateY(-2px);
-        }
-
-        .btn-primary {
-            background: var(--orange);
-            color: white;
-
-            box-shadow:
-                0 10px 25px rgba(249,115,22,.22);
-        }
-
-        .btn-primary:hover {
-            background: var(--orange-dark);
-        }
-
-        .btn-secondary {
-            background: rgba(255,255,255,.06);
-            border-color: rgba(255,255,255,.15);
-            color: white;
-        }
-
-        .btn-secondary:hover {
-            background: rgba(255,255,255,.1);
-        }
-
-        .btn-call {
-            background: var(--blue);
-            color: white;
-        }
-
-        .btn-call:hover {
-            background: #0369a1;
-        }
-
-        .btn-whatsapp {
-            background: #16a34a;
-            color: white;
-        }
-
-        .btn-whatsapp:hover {
-            background: #15803d;
-        }
-
-        .btn-small {
-            min-height: 42px;
-            padding: 0 15px;
-            font-size: 14px;
-        }
-
-        /* =========================
-           HEADER
-        ========================= */
-
-        header {
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-
-            background:
-                rgba(7,17,31,.94);
-
-            backdrop-filter: blur(15px);
-
-            border-bottom:
-                1px solid var(--border);
-        }
-
-        .header-inner {
-            min-height: 76px;
-
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            gap: 20px;
-        }
-
-        .brand {
-            display: flex;
-            align-items: center;
-            gap: 11px;
-
-            min-width: 0;
-        }
-
-        .brand img {
-            width: 48px;
-            height: 48px;
-
-            object-fit: contain;
-
-            border-radius: 9px;
-        }
-
-        .brand-text {
-            min-width: 0;
-        }
-
-        .brand-title {
-            color: white;
-
-            font-size: 17px;
-            font-weight: 900;
-
-            white-space: nowrap;
-        }
-
-        .brand-subtitle {
-            color: var(--muted);
-
-            font-size: 11px;
-            font-weight: 600;
-
-            white-space: nowrap;
-        }
-
-        nav {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-
-        nav a {
-            color: #cbd5e1;
-
-            font-size: 13px;
-            font-weight: 700;
-
-            padding: 9px 10px;
-
-            border-radius: 8px;
-
-            transition:
-                background .2s ease,
-                color .2s ease;
-        }
-
-        nav a:hover,
-        nav a.active {
-            color: white;
-            background: rgba(255,255,255,.06);
-        }
-
-        a:focus-visible,
-        button:focus-visible,
-        input:focus-visible,
-        select:focus-visible,
-        textarea:focus-visible {
-            outline: 3px solid var(--orange-light);
-            outline-offset: 3px;
-        }
-
-        section[id] {
-            scroll-margin-top: 92px;
-        }
-
-        .header-cta {
-            margin-left: 4px;
-        }
-
-        .mobile-menu-btn {
-            display: none;
-
-            width: 44px;
-            height: 44px;
-
-            border: 1px solid var(--border);
-
-            background: rgba(255,255,255,.05);
-
-            color: white;
-
-            border-radius: 10px;
-
-            font-size: 22px;
-        }
-
-        /* =========================
-           HERO
-        ========================= */
-
-        .hero {
-            position: relative;
-
-            min-height: 700px;
-
-            display: flex;
-            align-items: center;
-
-            background:
-                linear-gradient(
-                    90deg,
-                    rgba(7,17,31,.96) 0%,
-                    rgba(7,17,31,.86) 45%,
-                    rgba(7,17,31,.52) 100%
-                ),
-                url("background.jpg")
-                center/cover no-repeat;
-        }
-
-        .hero::after {
-            content: "";
-
-            position: absolute;
-            inset: 0;
-
-            background:
-                linear-gradient(
-                    180deg,
-                    rgba(7,17,31,.15),
-                    rgba(7,17,31,.55)
-                );
-
-            pointer-events: none;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-
-            max-width: 850px;
-
-            padding: 95px 0;
-        }
-
-        .hero-badge {
-            display: inline-flex;
-
-            align-items: center;
-            gap: 9px;
-
-            padding: 8px 13px;
-
-            border-radius: 999px;
-
-            background:
-                rgba(249,115,22,.12);
-
-            border:
-                1px solid rgba(249,115,22,.25);
-
-            color: #fed7aa;
-
-            font-size: 13px;
-            font-weight: 800;
-
-            margin-bottom: 20px;
-        }
-
-        .hero h1 {
-            font-size:
-                clamp(42px, 6vw, 76px);
-
-            color: white;
-
-            letter-spacing: -2px;
-
-            margin-bottom: 20px;
-        }
-
-        .hero h1 span {
-            color: var(--orange-light);
-        }
-
-        .hero-description {
-            max-width: 720px;
-
-            color: #cbd5e1;
-
-            font-size:
-                clamp(17px, 2vw, 20px);
-
-            margin-bottom: 30px;
-        }
-
-        .hero-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-
-        .hero-trust {
-            display: flex;
-            flex-wrap: wrap;
-
-            gap: 18px;
-
-            margin-top: 35px;
-
-            color: #cbd5e1;
-
-            font-size: 14px;
-            font-weight: 700;
-        }
-
-        .hero-trust span {
-            display: flex;
-            align-items: center;
-            gap: 7px;
-        }
-
-        .hero-trust span::before {
-            content: "✓";
-
-            display: inline-flex;
-
-            align-items: center;
-            justify-content: center;
-
-            width: 20px;
-            height: 20px;
-
-            border-radius: 50%;
-
-            background: rgba(249,115,22,.15);
-
-            color: var(--orange-light);
-
-            font-weight: 900;
-        }
-
-        /* =========================
-           CARDS
-        ========================= */
-
-        .grid {
-            display: grid;
-            gap: 22px;
-        }
-
-        .grid-3 {
-            grid-template-columns:
-                repeat(3, minmax(0, 1fr));
-        }
-
-        .grid-4 {
-            grid-template-columns:
-                repeat(4, minmax(0, 1fr));
-        }
-
-        .card {
-            background:
-                linear-gradient(
-                    180deg,
-                    rgba(255,255,255,.045),
-                    rgba(255,255,255,.02)
-                );
-
-            border:
-                1px solid var(--border);
-
-            border-radius: var(--radius);
-
-            padding: 28px;
-
-            box-shadow: var(--shadow);
-
-            transition:
-                transform .25s ease,
-                border-color .25s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-
-            border-color:
-                rgba(249,115,22,.3);
-        }
-
-        .card-icon {
-            width: 54px;
-            height: 54px;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            border-radius: 14px;
-
-            background:
-                rgba(249,115,22,.1);
-
-            color: var(--orange-light);
-
-            font-size: 25px;
-
-            margin-bottom: 18px;
-        }
-
-        .card h3 {
-            color: white;
-            font-size: 21px;
-            margin-bottom: 9px;
-        }
-
-        .card p {
-            color: var(--muted);
-            font-size: 15px;
-        }
-
-        /* =========================
-           PRODUCTS
-        ========================= */
-
-        .product-card {
-            overflow: hidden;
-            padding: 0;
-        }
-
-        .product-image {
-            height: 190px;
-
-            background:
-                var(--navy-3);
-
-            overflow: hidden;
-        }
-
-        .product-image img {
-            width: 100%;
-            height: 100%;
-
-            object-fit: cover;
-
-            transition:
-                transform .4s ease;
-        }
-
-        .product-card:hover
-        .product-image img {
-            transform: scale(1.05);
-        }
-
-        .product-body {
-            padding: 23px;
-        }
-
-        .product-body h3 {
-            color: white;
-            margin-bottom: 8px;
-        }
-
-        .product-body p {
-            color: var(--muted);
-            font-size: 14px;
-            margin-bottom: 18px;
-        }
-
-        /* =========================
-           PROJECTS
-        ========================= */
-
-        .project-card {
-            position: relative;
-            overflow: hidden;
-
-            min-height: 280px;
-
-            border-radius: var(--radius);
-
-            border:
-                1px solid var(--border);
-
-            background:
-                var(--navy-3);
-        }
-
-        .project-card img {
-            width: 100%;
-            height: 100%;
-
-            object-fit: cover;
-
-            transition:
-                transform .4s ease;
-        }
-
-        .project-card:hover img {
-            transform: scale(1.05);
-        }
-
-        .project-overlay {
-            position: absolute;
-            inset: auto 0 0;
-
-            padding: 25px;
-
-            background:
-                linear-gradient(
-                    transparent,
-                    rgba(0,0,0,.9)
-                );
-        }
-
-        .project-overlay h3 {
-            color: white;
-            margin-bottom: 5px;
-        }
-
-        .project-overlay p {
-            color: #cbd5e1;
-            font-size: 14px;
-        }
-
-        /* =========================
-           WHY US
-        ========================= */
-
-        .why-list {
-            display: grid;
-
-            grid-template-columns:
-                repeat(2, minmax(0,1fr));
-
-            gap: 16px;
-        }
-
-        .why-item {
-            display: flex;
-            gap: 15px;
-
-            padding: 20px;
-
-            background:
-                rgba(255,255,255,.035);
-
-            border:
-                1px solid var(--border);
-
-            border-radius: 14px;
-        }
-
-        .why-number {
-            flex: 0 0 auto;
-
-            width: 40px;
-            height: 40px;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            border-radius: 10px;
-
-            background:
-                rgba(249,115,22,.12);
-
-            color: var(--orange-light);
-
-            font-weight: 900;
-        }
-
-        .why-item h3 {
-            color: white;
-            font-size: 17px;
-            margin-bottom: 5px;
-        }
-
-        .why-item p {
-            color: var(--muted);
-            font-size: 14px;
-        }
-
-        /* =========================
-           CALCULATOR
-        ========================= */
-
-        .calculator {
-            display: grid;
-
-            grid-template-columns:
-                1fr 1.2fr;
-
-            gap: 28px;
-
-            align-items: start;
-        }
-
-        .form-box {
-            padding: 30px;
-
-            border:
-                1px solid var(--border);
-
-            border-radius: var(--radius);
-
-            background:
-                rgba(255,255,255,.035);
-        }
-
-        .form-group {
-            margin-bottom: 17px;
-        }
-
-        .form-group label {
-            display: block;
-
-            color: #e2e8f0;
-
-            font-size: 14px;
-            font-weight: 700;
-
-            margin-bottom: 7px;
-        }
-
-        .form-control {
-            width: 100%;
-
-            min-height: 48px;
-
-            padding: 11px 13px;
-
-            border-radius: 9px;
-
-            border:
-                1px solid rgba(255,255,255,.12);
-
-            background:
-                rgba(255,255,255,.05);
-
-            color: white;
-
-            outline: none;
-        }
-
-        .form-control:focus {
-            border-color:
-                var(--orange);
-        }
-
-        .form-control option {
-            background: var(--navy-2);
-        }
-
-        .calculator-results {
-            display: grid;
-
-            grid-template-columns:
-                repeat(2, minmax(0,1fr));
-
-            gap: 15px;
-        }
-
-        .result-card {
-            padding: 20px;
-
-            border-radius: 14px;
-
-            background:
-                rgba(255,255,255,.035);
-
-            border:
-                1px solid var(--border);
-        }
-
-        .result-card span {
-            display: block;
-
-            color: var(--muted);
-
-            font-size: 13px;
-
-            margin-bottom: 7px;
-        }
-
-        .result-card strong {
-            color: white;
-
-            font-size: 23px;
-        }
-
-        /* =========================
-           QUOTE
-        ========================= */
-
-        .quote-section {
-            background:
-                linear-gradient(
-                    135deg,
-                    #0b1627,
-                    #101d30
-                );
-        }
-
-        .quote-grid {
-            display: grid;
-
-            grid-template-columns:
-                .9fr 1.1fr;
-
-            gap: 35px;
-
-            align-items: start;
-        }
-
-        .quote-info h2 {
-            margin-bottom: 18px;
-        }
-
-        .quote-info p {
-            color: var(--muted);
-
-            margin-bottom: 20px;
-        }
-
-        .contact-box {
-            display: block;
-
-            padding: 18px;
-
-            border:
-                1px solid var(--border);
-
-            border-radius: 13px;
-
-            background:
-                rgba(255,255,255,.035);
-
-            margin-top: 15px;
-
-            transition:
-                border-color .2s ease,
-                transform .2s ease;
-        }
-
-        .contact-box:hover {
-            border-color: var(--orange);
-            transform: translateY(-2px);
-        }
-
-        .contact-box strong {
-            color: white;
-        }
-
-        .contact-box span {
-            display: block;
-
-            color: var(--muted);
-
-            font-size: 14px;
-        }
-
-        /* =========================
-           LOCAL SEO
-        ========================= */
-
-        .location-grid {
-            display: grid;
-
-            grid-template-columns:
-                repeat(3, minmax(0,1fr));
-
-            gap: 18px;
-        }
-
-        .location-card {
-            padding: 23px;
-
-            border:
-                1px solid var(--border);
-
-            border-radius: 15px;
-
-            background:
-                rgba(255,255,255,.035);
-        }
-
-        .location-card h3 {
-            color: white;
-            margin-bottom: 8px;
-        }
-
-        .location-card p {
-            color: var(--muted);
-            font-size: 14px;
-        }
-
-        /* =========================
-           CTA
-        ========================= */
-
-        .cta {
-            text-align: center;
-
-            padding: 75px 25px;
-
-            border-radius: 24px;
-
-            background:
-                linear-gradient(
-                    135deg,
-                    rgba(249,115,22,.14),
-                    rgba(2,132,199,.12)
-                );
-
-            border:
-                1px solid var(--border);
-        }
-
-        .cta h2 {
-            max-width: 760px;
-
-            margin-inline: auto;
-        }
-
-        .cta p {
-            max-width: 650px;
-
-            margin: 0 auto 25px;
-
-            color: var(--muted);
-        }
-
-        /* =========================
-           FOOTER
-        ========================= */
-
-        footer {
-            padding: 55px 0 100px;
-
-            background: #050c16;
-
-            border-top:
-                1px solid var(--border);
-        }
-
-        .footer-grid {
-            display: grid;
-
-            grid-template-columns:
-                1.4fr 1fr 1fr;
-
-            gap: 40px;
-        }
-
-        footer h3 {
-            color: white;
-            margin-bottom: 13px;
-        }
-
-        footer p,
-        footer a {
-            color: var(--muted);
-            font-size: 14px;
-        }
-
-        footer a:hover {
-            color: white;
-        }
-
-        .footer-links {
-            display: grid;
-            gap: 8px;
-        }
-
-        .copyright {
-            padding-top: 30px;
-            margin-top: 30px;
-
-            border-top:
-                1px solid var(--border);
-
-            color: var(--muted);
-
-            font-size: 13px;
-        }
-
-        /* =========================
-           FLOATING WHATSAPP
-        ========================= */
-
-        .floating-whatsapp {
-            position: fixed;
-
-            right: 22px;
-            bottom: 22px;
-
-            z-index: 1500;
-
-            width: 58px;
-            height: 58px;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            border-radius: 50%;
-
-            background: #16a34a;
-
-            color: white;
-
-            font-size: 25px;
-
-            box-shadow:
-                0 12px 30px rgba(0,0,0,.35);
-
-            transition:
-                transform .2s ease;
-        }
-
-        .floating-whatsapp:hover {
-            transform: scale(1.08);
-        }
-
-        /* =========================
-           MOBILE ACTION BAR
-        ========================= */
-
-        .mobile-action-bar {
-            display: none;
-        }
-
-        /* =========================
-           MOBILE
-        ========================= */
-
-        @media (max-width: 900px) {
-
-            .grid-4 {
-                grid-template-columns:
-                    repeat(2, minmax(0,1fr));
-            }
-
-            .grid-3 {
-                grid-template-columns:
-                    repeat(2, minmax(0,1fr));
-            }
-
-            .calculator,
-            .quote-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .location-grid {
-                grid-template-columns:
-                    repeat(2, minmax(0,1fr));
-            }
-
-            nav {
-                display: none;
-
-                position: absolute;
-
-                top: 76px;
-                left: 16px;
-                right: 16px;
-
-                flex-direction: column;
-
-                align-items: stretch;
-
-                padding: 12px;
-
-                background:
-                    rgba(7,17,31,.98);
-
-                border:
-                    1px solid var(--border);
-
-                border-radius: 14px;
-
-                box-shadow: var(--shadow);
-            }
-
-            nav.show {
-                display: flex;
-            }
-
-            nav a {
-                padding: 13px;
-            }
-
-            .mobile-menu-btn {
-                display: block;
-            }
-
-            .header-cta {
-                display: none;
-            }
-
-        }
-
-        @media (max-width: 600px) {
-
-            .container {
-                width:
-                    min(
-                        calc(100% - 24px),
-                        var(--max-width)
-                    );
-            }
-
-            .section {
-                padding: 60px 0;
-            }
-
-            .header-inner {
-                min-height: 66px;
-            }
-
-            header {
-                position: sticky;
-            }
-
-            .brand img {
-                width: 42px;
-                height: 42px;
-            }
-
-            .brand-title {
-                font-size: 14px;
-            }
-
-            .brand-subtitle {
-                font-size: 9px;
-            }
-
-            .hero {
-                min-height: 640px;
-
-                background:
-                    linear-gradient(
-                        180deg,
-                        rgba(7,17,31,.9),
-                        rgba(7,17,31,.8)
-                    ),
-                    url("background.jpg")
-                    center/cover no-repeat;
-            }
-
-            .hero-content {
-                padding: 75px 0 110px;
-            }
-
-            .hero h1 {
-                font-size:
-                    clamp(36px, 12vw, 53px);
-
-                letter-spacing: -1.4px;
-            }
-
-            .hero-description {
-                font-size: 16px;
-                line-height: 1.7;
-            }
-
-            .hero-buttons {
-                display: grid;
-                grid-template-columns: 1fr;
-
-                width: 100%;
-            }
-
-            .hero-buttons .btn {
-                width: 100%;
-                min-height: 52px;
-            }
-
-            .hero-trust {
-                display: grid;
-                gap: 11px;
-
-                margin-top: 25px;
-            }
-
-            .grid-3,
-            .grid-4,
-            .location-grid,
-            .why-list {
-                grid-template-columns: 1fr;
-            }
-
-            .card {
-                padding: 22px;
-            }
-
-            .product-image {
-                height: 210px;
-            }
-
-            .calculator-results {
-                grid-template-columns: 1fr;
-            }
-
-            .form-box {
-                padding: 22px;
-            }
-
-            .cta {
-                padding: 50px 18px;
-                border-radius: 18px;
-            }
-
-            footer {
-                padding-bottom: 120px;
-            }
-
-            .footer-grid {
-                grid-template-columns: 1fr;
-                gap: 30px;
-            }
-
-            .floating-whatsapp {
-                right: 14px;
-                bottom: 78px;
-
-                width: 52px;
-                height: 52px;
-            }
-
-            /* Mobile bottom action bar */
-
-            .mobile-action-bar {
-                position: fixed;
-
-                display: grid;
-
-                grid-template-columns:
-                    repeat(3, 1fr);
-
-                gap: 7px;
-
-                left: 0;
-                right: 0;
-                bottom: 0;
-
-                z-index: 1400;
-
-                padding:
-                    8px 9px
-                    calc(8px + env(safe-area-inset-bottom));
-
-                background:
-                    rgba(5,12,22,.97);
-
-                border-top:
-                    1px solid rgba(255,255,255,.12);
-
-                backdrop-filter: blur(12px);
-            }
-
-            .mobile-action-bar a {
-                min-height: 48px;
-
-                display: flex;
-
-                align-items: center;
-                justify-content: center;
-
-                gap: 6px;
-
-                border-radius: 9px;
-
-                color: white;
-
-                font-size: 12px;
-
-                font-weight: 900;
-            }
-
-            .mobile-action-call {
-                background: var(--blue);
-            }
-
-            .mobile-action-whatsapp {
-                background: #16a34a;
-            }
-
-            .mobile-action-quote {
-                background: var(--orange);
-            }
-
-        }
-
-    </style>
 </head>
-
 <body>
 
-<a class="skip-link" href="#main-content">Skip to main content</a>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-content">
+            <span><i class="fa-solid fa-location-dot" style="color: #ffb703;"></i> Gulberg Greens, Islamabad (Est. 2014)</span>
+            <a href="tel:03004648222"><i class="fa-solid fa-phone"></i> 0300-4648222 (Response &lt; 30 Mins)</a>
+        </div>
+    </div>
 
-<header>
-
-    <div class="container header-inner">
-
-        <a href="index.html"
-           class="brand"
-           aria-label="Al-Sayed Building Materials Home">
-
-            <img
-                src="logo.png"
-                alt="Al-Sayed Building Materials logo"
-                width="48"
-                height="48"
-            >
-
-            <div class="brand-text">
-
-                <div class="brand-title">
-                    AL-SAYED BUILDING MATERIALS
-                </div>
-
-                <div class="brand-subtitle">
-                    Building Materials Suppliers across Islamabad and Rawalpindi 
-                </div>
-
-            </div>
-
-        </a>
-
-
-        <nav id="mainNav">
-
-            <a href="index.html"
-              >
-                Home
+    <!-- Header / Navbar -->
+    <header>
+        <div class="logo-container">
+            <a href="#home">
+                <img src="logo.jpeg" alt="The Demolition Experts Logo" class="site-logo">
             </a>
-
-            <a href="#why-us">
-                Why Us
-            </a>
-
-            <a href="bricks.html"
-              >
-                Bricks
-            </a>
-
-            <a href="cement.html"
-              >
-                Cement
-            </a>
-
-            <a href="sand.html"
-              >
-                Sand
-            </a>
-
-            <a href="crush.html"
-              >
-                Crush
-            </a>
-
-            <a href="generalsupply.html"
-              >
-                General Supply
-            </a>
-
-            <a href="ourprojects.html"
-              >
-                Projects
-            </a>
-
-            <a href="contactus.html"
-              >
-                Contact
-            </a>
-
-        </nav>
-
-
-        <a
-            class="btn btn-primary btn-small header-cta"
-            href="#quote"
-        >
-            Get Quote
-        </a>
-
-
-        <button
-            class="mobile-menu-btn"
-            id="mobileMenuBtn"
-            aria-label="Open navigation menu"
-            aria-controls="mainNav"
-            aria-expanded="false"
-            type="button"
-        >
-            ☰
+        </div>
+        <button class="menu-toggle" onclick="toggleMenu()" aria-label="Toggle Navigation">
+            <i class="fa-solid fa-bars"></i>
         </button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#proof">Proof & Safety</a></li>
+                <li><a href="#services">Services & Pricing</a></li>
+                <li><a href="#projects">Before/After</a></li>
+                <li><a href="#contact">Get Quote</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    </div>
-
-</header>
-
-
-<main id="main-content">
-
-<!-- =========================
-     HERO
-========================== -->
-
-<section class="hero">
-
-    <div class="container">
-
+    <!-- Hero Section -->
+    <section id="home" class="hero">
         <div class="hero-content">
-
-            <div class="hero-badge">
-                   Construction Material Supplier
+            <span class="badge">NTN Verified & Fully Insured Contractors</span>
+            <h2>Safe, Certified Building Demolition & Site Clearance in Islamabad & Rawalpindi</h2>
+            <p>Zero neighbor-damage guarantee backed by 12+ years of field experience and 340+ completed structural breakdowns.</p>
+            <div class="hero-btns">
+                <a href="tel:03004648222" class="btn-primary"><i class="fa-solid fa-phone"></i> Call Direct: 0300-4648222</a>
+                <a href="#contact" class="btn-secondary">Get Estimate in 30 Mins</a>
             </div>
-
-
-            <h1>
-                Building Materials Supplier
-                <span>
-                    in Islamabad & Rawalpindi
-                </span>
-            </h1>
-
-
-            <p class="hero-description">
-                Al-Sayed Building Materials supplies quality
-                bricks, cement, sand, stone crush and other
-                construction materials with reliable delivery
-                across Islamabad and Rawalpindi.
-            </p>
-
-
-            <div class="hero-buttons">
-
-                <a
-                    href="#quote"
-                    class="btn btn-primary"
-                >
-                    📋 Get a Quote
-                </a>
-
-                <a
-                    href="https://wa.me/923109871812?text=Hello%20Al-Sayed%20Building%20Materials%2C%20I%20need%20building%20materials."
-                    class="btn btn-whatsapp"                target="_blank"
-    rel="noopener noreferrer"
->
-                    💬 WhatsApp Us
-                </a>
-
-                <a
-                    href="tel:+923109871812"
-                    class="btn btn-call"
-                >
-                    📞 Call Now
-                </a>
-
-            </div>
-
-
-            <div class="hero-trust">
-
-                <span>
-                    Islamabad Delivery
-                </span>
-
-                <span>
-                    Rawalpindi Delivery
-                </span>
-
-                <span>
-                    Quality Materials
-                </span>
-
-                <span>
-                    Fast Response
-                </span>
-
-            </div>
-
         </div>
+    </section>
 
+    <!-- Trust & Stats Bar -->
+    <div class="stats-grid">
+        <div class="stat-item">
+            <h3>12+ Years</h3>
+            <p>In Business</p>
+        </div>
+        <div class="stat-item">
+            <h3>340+</h3>
+            <p>Projects Finished</p>
+        </div>
+        <div class="stat-item">
+            <h3>100%</h3>
+            <p>Safety Record</p>
+        </div>
+        <div class="stat-item">
+            <h3>NTN 849210-4</h3>
+            <p>Registered Firm</p>
+        </div>
     </div>
 
-</section>
+    <!-- About & Safety Section (Addressing Fear of Neighbor Damage) -->
+    <section id="proof">
+        <h2 class="section-title">Safety, Insurance & Company Background</h2>
+        <p class="section-sub">Why property owners across DHA, Bahria Town, and Islamabad trust our crew with high-risk structural drops.</p>
 
-
-<!-- =========================
-     PRODUCTS
-========================== -->
-
-<section class="section section-light-dark">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div class="eyebrow">
-                Our Products
+        <div class="grid-1 grid-2">
+            <div class="card">
+                <h3 style="color: #ffb703; margin-bottom: 12px; font-size: 1.1rem;"><i class="fa-solid fa-shield-halved"></i> Our Safety & Insurance Guarantee</h3>
+                <p style="font-size: 0.9rem; color: #ccc; line-height: 1.6; margin-bottom: 10px;">
+                    Demolishing a building adjacent to occupied homes in congested urban areas is high-risk. We protect you completely:
+                </p>
+                <ul style="font-size: 0.88rem; color: #bbb; padding-left: 18px; display: flex; flex-direction: column; gap: 6px;">
+                    <li><strong>Third-Party Liability Cover:</strong> Full contractor coverage protecting adjoining boundary walls and property.</li>
+                    <li><strong>Controlled Mechanical Drop:</strong> Precision excavator reach prevents uncontrolled street debris scatter.</li>
+                    <li><strong>Dust Suppression:</strong> High-pressure water misters deployed continuously to comply with environmental guidelines.</li>
+                </ul>
             </div>
 
-            <h2>
-                Construction Materials
-                You Can Depend On
-            </h2>
-
-            <p>
-                We supply essential construction materials
-                for houses, commercial buildings and
-                construction projects in Islamabad and Rawalpindi.
-            </p>
-
+            <div class="card">
+                <h3 style="color: #ffb703; margin-bottom: 12px; font-size: 1.1rem;"><i class="fa-solid fa-user-tie"></i> Company Story & Leadership</h3>
+                <p style="font-size: 0.9rem; color: #ccc; line-height: 1.6;">
+                    Founded in 2014 in Gulberg Greens, <strong>The Demolition Experts</strong> started as a specialized manual dismantling contractor and grew into the Twin Cities' premier heavy-machinery demolition outfit. Led by seasoned civil engineers and veteran equipment operators, we manage everything from single-unit house breaking to multi-story commercial plaza teardowns.
+                </p>
+            </div>
         </div>
+    </section>
 
+    <!-- Services & Transparent Pricing Guidance -->
+    <section id="services" style="background: #111;">
+        <h2 class="section-title">Services & Transparent Pricing</h2>
+        <p class="section-sub">No hidden fees. Ballpark estimates based on standard plot sizes in Islamabad & Rawalpindi.</p>
 
-        <div class="grid grid-3">
+        <div class="grid-1 grid-3">
+            <div class="card">
+                <i class="fa-solid fa-house-chimney-crack" style="color: #ffb703; font-size: 1.8rem; margin-bottom: 10px;"></i>
+                <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 6px;">House Breaking & Teardown</h3>
+                <p style="font-size: 0.88rem; color: #aaa; margin-bottom: 10px;">Complete residential structure razing, foundation extraction, and clearing.</p>
+                <div class="price-badge">Starting from PKR 15,000 / Marla</div>
+            </div>
 
-            <article class="card product-card">
+            <div class="card">
+                <i class="fa-solid fa-building" style="color: #ffb703; font-size: 1.8rem; margin-bottom: 10px;"></i>
+                <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 6px;">Commercial Plaza Wrecking</h3>
+                <p style="font-size: 0.88rem; color: #aaa; margin-bottom: 10px;">Multi-story reinforced concrete breakdown using heavy hydraulic excavators.</p>
+                <div class="price-badge">Custom Quote (Site Inspection Req.)</div>
+            </div>
 
-                <div class="product-image">
+            <div class="card">
+                <i class="fa-solid fa-truck-ramp-box" style="color: #ffb703; font-size: 1.8rem; margin-bottom: 10px;"></i>
+                <h3 style="color: #fff; font-size: 1.1rem; margin-bottom: 6px;">Site Clearance & Rubble Haulage</h3>
+                <p style="font-size: 0.88rem; color: #aaa; margin-bottom: 10px;">Debris loading via dump trucks, earth moving, and complete plot leveling.</p>
+                <div class="price-badge">Starting from PKR 10,000 / Marla</div>
+            </div>
+        </div>
+    </section>
 
-                    <img
-                        src="bricks1.jpg"
-                        alt="Quality construction bricks supplier in Islamabad and Rawalpindi"
-                        loading="lazy"
-                        decoding="async"
-                    >
+    <!-- Before/After Project Showcase -->
+    <section id="projects">
+        <h2 class="section-title">Before / After Case Studies</h2>
+        <p class="section-sub">Drag the slider or check project specs from actual operations in the Twin Cities.</p>
 
+        <div class="grid-1 grid-2">
+            <!-- Project 1 -->
+            <div class="card">
+                <div class="ba-container" id="ba1">
+                    <div class="ba-img ba-before"></div>
+                    <div class="ba-img ba-after" id="baAfter1"></div>
+                    <input type="range" min="0" max="100" value="50" class="ba-slider-range" oninput="slideBa(this, 'baAfter1')">
+                    <span class="ba-label before">Before</span>
+                    <span class="ba-label after">After</span>
                 </div>
+                <h4 style="color: #fff; font-size: 1.05rem; margin-bottom: 6px;">Commercial Plaza Teardown</h4>
+                <p style="font-size: 0.85rem; color: #aaa; line-height: 1.5;">
+                    <strong>Location:</strong> Gulberg Greens, Islamabad<br>
+                    <strong>Plot Size:</strong> 1 Kanal | <strong>Duration:</strong> 6 Days<br>
+                    <strong>Scope:</strong> 3-story concrete structure demolition, steel salvage separation, and total debris clearance.
+                </p>
+            </div>
 
-                <div class="product-body">
+            <!-- Project 2 -->
+            <div class="card">
+                <div class="ba-container" id="ba2">
+                    <div class="ba-img ba-before"></div>
+                    <div class="ba-img ba-after" id="baAfter2"></div>
+                    <input type="range" min="0" max="100" value="50" class="ba-slider-range" oninput="slideBa(this, 'baAfter2')">
+                    <span class="ba-label before">Before</span>
+                    <span class="ba-label after">After</span>
+                </div>
+                <h4 style="color: #fff; font-size: 1.05rem; margin-bottom: 6px;">Residential House Dismantling</h4>
+                <p style="font-size: 0.85rem; color: #aaa; line-height: 1.5;">
+                    <strong>Location:</strong> DHA Phase 2, Islamabad<br>
+                    <strong>Plot Size:</strong> 10 Marla | <strong>Duration:</strong> 3 Days<br>
+                    <strong>Scope:</strong> Controlled wall breaking, safe neighbor boundary preservation, and ground leveling.
+                </p>
+            </div>
+        </div>
+    </section>
 
-                    <h3>
-                        Bricks
-                    </h3>
-
-                    <p>
-                        Quality construction bricks suitable
-                        for residential and commercial projects.
-                    </p>
-
-                    <a
-                        href="bricks.html"
-                       
-                        class="btn btn-secondary btn-small"
-                    >
-                        View Bricks →
+    <!-- Contact & Verified Lead Form -->
+    <section id="contact" style="background: #111;">
+        <h2 class="section-title">Request a Guaranteed Quote</h2>
+        <p class="section-sub">We respond within 30 minutes. Direct WhatsApp inquiries receive fastest estimates.</p>
+        
+        <div class="contact-wrapper">
+            <div class="info-box">
+                <h3 style="color: #ffb703; margin-bottom: 15px; font-size: 1.1rem;">Direct Office Contact</h3>
+                <p style="margin-bottom: 12px; font-size: 0.9rem;"><i class="fa-solid fa-location-dot" style="color: #ffb703; margin-right: 6px;"></i> <strong>Office:</strong> Office #4, Plaza 23, Gulberg Greens, Islamabad</p>
+                
+                <!-- WhatsApp Quick Box -->
+                <div style="margin: 15px 0; background: rgba(37, 211, 102, 0.1); border: 1px solid #25d366; padding: 12px; border-radius: 6px; text-align: center;">
+                    <a href="https://wa.me/923004648222?text=Hello%2C%20I%20need%20a%20demolition%20quote%20for%20my%20plot." target="_blank" style="color: #25d366; text-decoration: none; font-weight: bold; font-size: 0.95rem; display: block;">
+                        <i class="fa-brands fa-whatsapp" style="font-size: 1.2rem;"></i> Instant WhatsApp Quote (0300-4648222)
                     </a>
-
                 </div>
 
-            </article>
+                <p style="margin-bottom: 10px; font-size: 0.9rem;"><i class="fa-solid fa-phone" style="color: #ffb703; margin-right: 6px;"></i> <a href="tel:03004648222" style="color: #ffb703; text-decoration: none;">0300-4648222</a></p>
+                <p style="font-size: 0.9rem; margin-bottom: 20px;"><i class="fa-solid fa-envelope" style="color: #ffb703; margin-right: 6px;"></i> info@demolitionexperts.pk</p>
 
-
-            <article class="card product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="cement1.jpg"
-                        alt="Cement supplier in Islamabad and Rawalpindi"
-                        loading="lazy"
-                        decoding="async"
-                    >
-
+                <!-- Google Maps Embed -->
+                <div style="width: 100%; height: 180px; border-radius: 6px; overflow: hidden; border: 1px solid #333;">
+                    <iframe title="Gulberg Greens Office Location" width="100%" height="100%" style="border:0;" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.8596041724!2d73.135!3d33.595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDM1JzQyLjAiTiA3M8KwMDgnMDYuMCJF!5e0!3m2!1sen!2spk!4v1650000000000"></iframe>
                 </div>
-
-                <div class="product-body">
-
-                    <h3>
-                        Cement
-                    </h3>
-
-                    <p>
-                        Reliable cement supply for concrete,
-                        masonry and construction work.
-                    </p>
-
-                    <a
-                        href="cement.html"
-                       
-                        class="btn btn-secondary btn-small"
-                    >
-                        View Cement →
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <article class="card product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="sand1.jpg"
-                        alt="Sand supplier in Islamabad and Rawalpindi"
-                        loading="lazy"
-                        decoding="async"
-                    >
-
-                </div>
-
-                <div class="product-body">
-
-                    <h3>
-                        Sand
-                    </h3>
-
-                    <p>
-                        Construction sand for concrete,
-                        plastering and masonry applications.
-                    </p>
-
-                    <a
-                        href="sand.html"
-                       
-                        class="btn btn-secondary btn-small"
-                    >
-                        View Sand →
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <article class="card product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="crush1.jpg"
-                        alt="Stone crush supplier in Islamabad and Rawalpindi"
-                        loading="lazy"
-                        decoding="async"
-                    >
-
-                </div>
-
-                <div class="product-body">
-
-                    <h3>
-                        Stone Crush
-                    </h3>
-
-                    <p>
-                        Quality stone crush and bajri for
-                        concrete and construction projects.
-                    </p>
-
-                    <a
-                        href="crush.html"
-                       
-                        class="btn btn-secondary btn-small"
-                    >
-                        View Crush →
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <article class="card product-card">
-
-                <div class="product-image">
-
-                    <img
-                        src="generalsupply1.jpg"
-                        alt="General construction material supply in Islamabad"
-                        loading="lazy"
-                        decoding="async"
-                    >
-
-                </div>
-
-                <div class="product-body">
-
-                    <h3>
-                        General Supply
-                    </h3>
-
-                    <p>
-                        Construction material sourcing and
-                        supply support for different project needs.
-                    </p>
-
-                    <a
-                        href="generalsupply.html"
-                       
-                        class="btn btn-secondary btn-small"
-                    >
-                        View Supply →
-                    </a>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     WHY US
-========================== -->
-
-<section
-    class="section section-dark"
-    id="why-us"
->
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div class="eyebrow">
-                Why Choose Us
             </div>
 
-            <h2>
-                A Reliable Partner
-                For Your Construction Needs
-            </h2>
-
-            <p>
-                We focus on dependable material supply,
-                clear communication and convenient delivery.
-            </p>
-
-        </div>
-
-
-        <div class="why-list">
-
-            <div class="why-item">
-
-                <div class="why-number">
-                    01
-                </div>
-
-                <div>
-
-                    <h3>
-                        Local Supply
-                    </h3>
-
-                    <p>
-                        Serving customers across Islamabad
-                        and Rawalpindi.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="why-item">
-
-                <div class="why-number">
-                    02
-                </div>
-
-                <div>
-
-                    <h3>
-                        Construction Materials
-                    </h3>
-
-                    <p>
-                        Bricks, cement, sand, crush and
-                        other essential materials.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="why-item">
-
-                <div class="why-number">
-                    03
-                </div>
-
-                <div>
-
-                    <h3>
-                        Delivery Support
-                    </h3>
-
-                    <p>
-                        Material delivery support for
-                        construction projects.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="why-item">
-
-                <div class="why-number">
-                    04
-                </div>
-
-                <div>
-
-                    <h3>
-                        Easy Communication
-                    </h3>
-
-                    <p>
-                        Contact us directly by phone,
-                        WhatsApp or quotation form.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     PROJECTS
-========================== -->
-
-<section class="section section-light-dark">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div class="eyebrow">
-                Our Projects
-            </div>
-
-            <h2>
-                Construction Material
-                Supply Projects
-            </h2>
-
-            <p>
-                Explore examples of construction material
-                supply and delivery work.
-            </p>
-
-        </div>
-
-
-        <div class="grid grid-3">
-
-            <a
-                href="ourprojects.html"
-               
-                class="project-card"
-            >
-
-                <img
-                    src="project1.jpg"
-                    alt="Construction material supply project in Islamabad"
-                    loading="lazy"
-                >
-
-                <div class="project-overlay">
-
-                    <h3>
-                        Material Supply Project
-                    </h3>
-
-                    <p>
-                        Islamabad
-                    </p>
-
-                </div>
-
-            </a>
-
-
-            <a
-                href="ourprojects.html"
-               
-                class="project-card"
-            >
-
-                <img
-                    src="project2.jpg"
-                    alt="Building material delivery project in Rawalpindi"
-                    loading="lazy"
-                >
-
-                <div class="project-overlay">
-
-                    <h3>
-                        Construction Supply
-                    </h3>
-
-                    <p>
-                        Rawalpindi
-                    </p>
-
-                </div>
-
-            </a>
-
-
-            <a
-                href="ourprojects.html"
-               
-                class="project-card"
-            >
-
-                <img
-                    src="project3.jpg"
-                    alt="Construction project material delivery Islamabad"
-                    loading="lazy"
-                >
-
-                <div class="project-overlay">
-
-                    <h3>
-                        Building Materials
-                    </h3>
-
-                    <p>
-                        Islamabad & Rawalpindi
-                    </p>
-
-                </div>
-
-            </a>
-
-        </div>
-
-
-        <div style="
-            text-align:center;
-            margin-top:30px;
-        ">
-
-            <a
-                href="ourprojects.html"
-               
-                class="btn btn-primary"
-            >
-                View All Projects →
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     CALCULATOR
-========================== -->
-
-<section
-    class="section section-dark"
-    id="calculator"
->
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div class="eyebrow">
-                Material Calculator
-            </div>
-
-            <h2>
-                Estimate Your
-                Construction Materials
-            </h2>
-
-            <p>
-                Enter your approximate plot size and number
-                of floors to get a basic planning estimate.
-            </p>
-
-        </div>
-
-
-        <div class="calculator">
-
-            <div class="form-box">
-
-                <div class="form-group">
-
-                    <label for="plotSize">
-                        Plot Size (Marla)
-                    </label>
-
-                    <input
-                        id="plotSize"
-                        class="form-control"
-                        type="number"
-                        min="1"
-                        step="0.5"
-                        placeholder="e.g. 5"
-                    >
-
-                </div>
-
-
-                <div class="form-group">
-
-                    <label for="floors">
-                        Number of Floors
-                    </label>
-
-                    <select
-                        id="floors"
-                        class="form-control"
-                    >
-
-                        <option value="">
-                            Select floors
-                        </option>
-
-                        <option value="1">
-                            1 Floor
-                        </option>
-
-                        <option value="2">
-                            2 Floors
-                        </option>
-
-                        <option value="3">
-                            3 Floors
-                        </option>
-
-                        <option value="4">
-                            4 Floors
-                        </option>
-
+            <!-- Action-Ready Quote Form (With Plot Size & Storeys) -->
+            <form class="form-box" action="https://formspree.io/f/rabnawaztraders@gmail.com" method="POST">
+                <h3 style="color: #ffb703; margin-bottom: 12px; font-size: 1.1rem;">Project Inquiry Form</h3>
+                <input type="text" name="name" placeholder="Your Full Name" required>
+                <input type="tel" name="phone" placeholder="Phone / WhatsApp (0300xxxxxxx)" required>
+                
+                <div class="grid-2" style="gap: 0; margin-bottom: 0;">
+                    <input type="text" name="plot_size" placeholder="Plot Size (e.g. 10 Marla / 1 Kanal)" required style="margin-bottom: 12px;">
+                    <select name="storeys" required style="margin-bottom: 12px;">
+                        <option value="" disabled selected>Building Storeys</option>
+                        <option value="Single Storey">Single Storey</option>
+                        <option value="Double Storey">Double Storey</option>
+                        <option value="Multi-Storey Plaza">Multi-Storey Plaza</option>
+                        <option value="Empty Plot Clearance">Empty Plot / Rubble Only</option>
                     </select>
-
                 </div>
 
-
-                <p style="
-                    color:var(--muted);
-                    font-size:13px;
-                    margin-bottom:18px;
-                ">
-                    Estimates are approximate and should
-                    be verified according to your actual
-                    construction drawings and requirements.
-                </p>
-
-
-                <button
-                    id="sendEstimate"
-                    class="btn btn-whatsapp"
-                    type="button"
-                    style="width:100%;"
-                >
-                    💬 Send Estimate on WhatsApp
-                </button>
-
-            </div>
-
-
-            <div class="calculator-results">
-
-                <div class="result-card">
-
-                    <span>
-                        Built-up Area
-                    </span>
-
-                    <strong id="resultArea">
-                        —
-                    </strong>
-
-                </div>
-
-
-                <div class="result-card">
-
-                    <span>
-                        Bricks
-                    </span>
-
-                    <strong id="resultBricks">
-                        —
-                    </strong>
-
-                </div>
-
-
-                <div class="result-card">
-
-                    <span>
-                        Cement
-                    </span>
-
-                    <strong id="resultCement">
-                        —
-                    </strong>
-
-                </div>
-
-
-                <div class="result-card">
-
-                    <span>
-                        Steel
-                    </span>
-
-                    <strong id="resultSteel">
-                        —
-                    </strong>
-
-                </div>
-
-
-                <div class="result-card">
-
-                    <span>
-                        Sand
-                    </span>
-
-                    <strong id="resultSand">
-                        —
-                    </strong>
-
-                </div>
-
-
-                <div class="result-card">
-
-                    <span>
-                        Crush
-                    </span>
-
-                    <strong id="resultCrush">
-                        —
-                    </strong>
-
-                </div>
-
-            </div>
-
+                <select name="service" required>
+                    <option value="" disabled selected>Select Primary Service</option>
+                    <option value="House Demolition">House Breaking & Demolition</option>
+                    <option value="Commercial Demolition">Commercial Plaza Teardown</option>
+                    <option value="Site Clearance">Site Clearance & Rubble Removal</option>
+                </select>
+                
+                <textarea name="message" placeholder="Location details (e.g. DHA Phase 2, Islamabad)..." rows="3" required></textarea>
+                <button type="submit" class="btn-primary" style="width: 100%; border: none; cursor: pointer;">Send Quote Request</button>
+            </form>
         </div>
+    </section>
 
+    <!-- Sticky Mobile Footer Bar -->
+    <div class="sticky-mobile-bar">
+        <a href="tel:03004648222" class="sticky-btn call"><i class="fa-solid fa-phone" style="color: #ffb703;"></i> Call Now</a>
+        <a href="https://wa.me/923004648222?text=Hello%2C%20I%20want%20a%20quote%20for%20demolition." target="_blank" class="sticky-btn wa"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
     </div>
 
-</section>
-
-
-<!-- =========================
-     LOCAL SEO
-========================== -->
-
-<section class="section section-light-dark">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div class="eyebrow">
-                Areas We Serve
-            </div>
-
-            <h2>
-                Building Material Supply
-                Across Islamabad & Rawalpindi
-            </h2>
-
-            <p>
-                Al-Sayed Building Materials serves residential,
-                commercial and construction projects throughout
-                Islamabad and Rawalpindi. For clients living
-                overseas and managing construction in the twin cities,
-                contact us for material availability, delivery and quotations.
-            </p>
-
-        </div>
-
-
-        <div class="location-grid">
-
-            <div class="location-card">
-
-                <h3>
-                    Islamabad
-                </h3>
-
-                <p>
-                    Building materials supply and delivery
-                    for construction projects throughout Islamabad.
-                </p>
-
-            </div>
-
-
-            <div class="location-card">
-
-                <h3>
-                    Gulberg Islamabad
-                </h3>
-
-                <p>
-                    Construction material supply for
-                    Gulberg Greens, Gulberg Residencia and
-                    surrounding areas.
-                </p>
-
-            </div>
-
-
-            <div class="location-card">
-
-                <h3>
-                    Rawalpindi
-                </h3>
-
-                <p>
-                    Bricks, cement, sand, crush and other
-                    construction materials for Rawalpindi projects.
-                </p>
-
-            </div>
-
-
-            <div class="location-card">
-
-                <h3>
-                    DHA Islamabad
-                </h3>
-
-                <p>
-                    Material supply support for residential
-                    and commercial construction.
-                </p>
-
-            </div>
-
-
-            <div class="location-card">
-
-                <h3>
-                    Bahria Town
-                </h3>
-
-                <p>
-                    Construction material delivery support
-                    for projects in nearby Bahria Town areas.
-                </p>
-
-            </div>
-
-
-            <div class="location-card">
-
-                <h3>
-                    Nearby Areas
-                </h3>
-
-                <p>
-                    Contact us to confirm availability and
-                    delivery options for your location.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     QUOTE
-========================== -->
-
-<section
-    class="section quote-section"
-    id="quote"
->
-
-    <div class="container">
-
-        <div class="quote-grid">
-
-            <div class="quote-info">
-
-                <div class="eyebrow">
-                    Get A Quote
-                </div>
-
-                <h2>
-                    Need Construction
-                    Materials?
-                </h2>
-
-                <p>
-                    Tell us what material you need,
-                    your quantity and delivery location.
-                    We will help you with your quotation.
-                </p>
-
-
-                <a
-                    href="tel:+923109871812"
-                    class="contact-box"
-                >
-
-                    <strong>
-                        📞 0310 9871812
-                    </strong>
-
-                    <span>
-                        Call for material inquiries
-                    </span>
-
-                </a>
-
-
-                <a
-                    href="https://wa.me/923109871812?text=Hello%20Al-Sayed%20Building%20Materials%2C%20I%20need%20a%20quotation."
-                    class="contact-box"                target="_blank"
-    rel="noopener noreferrer"
->
-
-                    <strong>
-                        💬 WhatsApp
-                    </strong>
-
-                    <span>
-                        Send your requirement directly
-                    </span>
-
-                </a>
-
-            </div>
-
-
-            <div class="form-box">
-
-                <form id="quoteForm">
-
-                    <div class="form-group">
-
-                        <label for="customerName">
-                            Your Name
-                        </label>
-
-                        <input
-                            id="customerName"
-                            class="form-control"
-                            type="text"
-                            required
-                            placeholder="Your name"
-                        >
-
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="customerPhone">
-                            Phone / WhatsApp
-                        </label>
-
-                        <input
-                            id="customerPhone"
-                            class="form-control"
-                            type="tel"
-                            required
-                            placeholder="03XXXXXXXXX"
-                        >
-
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="material">
-                            Material Required
-                        </label>
-
-                        <input
-                            id="material"
-                            class="form-control"
-                            type="text"
-                            required
-                            placeholder="Bricks, cement, sand, crush..."
-                        >
-
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="quantity">
-                            Quantity
-                        </label>
-
-                        <input
-                            id="quantity"
-                            class="form-control"
-                            type="text"
-                            required
-                            placeholder="e.g. 1000 bricks / 100 bags"
-                        >
-
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="deliveryArea">
-                            Delivery Area
-                        </label>
-
-                        <input
-                            id="deliveryArea"
-                            class="form-control"
-                            type="text"
-                            required
-                            placeholder="Islamabad / Rawalpindi"
-                        >
-
-                    </div>
-
-
-                    <div class="form-group">
-
-                        <label for="message">
-                            Additional Details
-                        </label>
-
-                        <textarea
-                            id="message"
-                            class="form-control"
-                            rows="4"
-                            placeholder="Tell us anything else about your requirement..."
-                        ></textarea>
-
-                    </div>
-
-
-                    <button
-                        type="submit"
-                        class="btn btn-primary"
-                        style="width:100%;"
-                    >
-                        📋 Request Quote
-                    </button>
-
-
-                    <p
-                        id="quoteStatus"
-                        style="
-                            color:var(--muted);
-                            font-size:13px;
-                            margin-top:12px;
-                            text-align:center;
-                        "
-                    ></p>
-
-                </form>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     FAQ
-========================== -->
-
-<section class="section section-dark" id="faq">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <div class="eyebrow">
-                Frequently Asked Questions
-            </div>
-
-            <h2>
-                Building Materials Supply FAQs
-            </h2>
-
-            <p>
-                Common questions about ordering construction materials
-                in Islamabad and Rawalpindi.
-            </p>
-
-        </div>
-
-        <div class="grid grid-3">
-
-            <article class="card">
-                <h3>What building materials do you supply?</h3>
-                <p>
-                    We supply bricks, cement, sand, stone crush and
-                    other construction material according to project requirements.
-                </p>
-            </article>
-
-            <article class="card">
-                <h3>Do you deliver in Islamabad and Rawalpindi?</h3>
-                <p>
-                    Yes. Delivery support is available across Islamabad
-                    and Rawalpindi. Contact us to confirm availability
-                    and delivery for your location.
-                </p>
-            </article>
-
-            <article class="card">
-                <h3>Can I request a quotation on WhatsApp?</h3>
-                <p>
-                    Yes. Send your required material, quantity and
-                    delivery area through WhatsApp for quotation support.
-                </p>
-            </article>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- =========================
-     FINAL CTA
-========================== -->
-
-<section class="section">
-
-    <div class="container">
-
-        <div class="cta">
-
-            <div class="eyebrow">
-                Al-Sayed Building Materials
-            </div>
-
-            <h2>
-                Looking for Building Materials
-                in Islamabad or Rawalpindi?
-            </h2>
-
-            <p>
-                Contact Al-Sayed Building Materials for
-                bricks, cement, sand, stone crush and
-                construction material supply.
-            </p>
-
-
-            <div class="hero-buttons"
-                 style="justify-content:center;">
-
-                <a
-                    href="https://wa.me/923109871812?text=Hello%20Al-Sayed%20Building%20Materials%2C%20I%20need%20building%20materials."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn btn-whatsapp"
-                >
-                    💬 WhatsApp Us
-                </a>
-
-
-                <a
-                    href="tel:+923109871812"
-                    class="btn btn-call"
-                >
-                    📞 Call 0310 9871812
-                </a>
-
-
-                <a
-                    href="#quote"
-                    class="btn btn-primary"
-                >
-                    Get a Quote
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-</main>
-
-
-<!-- =========================
-     FOOTER
-========================== -->
-
-<footer>
-
-    <div class="container">
-
-        <div class="footer-grid">
-
-            <div>
-
-                <h3>
-                    AL-SAYED BUILDING MATERIALS
-                </h3>
-
-                <p>
-                    Building materials supplier serving
-                    Islamabad and Rawalpindi with bricks,
-                    cement, sand, stone crush and general
-                    construction material supply.
-                </p>
-
-            </div>
-
-
-            <div>
-
-                <h3>
-                    Products
-                </h3>
-
-                <div class="footer-links">
-
-                    <a
-                        href="bricks.html"                    >
-                        Bricks
-                    </a>
-
-                    <a
-                        href="cement.html"                    >
-                        Cement
-                    </a>
-
-                    <a
-                        href="sand.html"                    >
-                        Sand
-                    </a>
-
-                    <a
-                        href="crush.html"                    >
-                        Stone Crush
-                    </a>
-
-                    <a
-                        href="generalsupply.html"                    >
-                        General Supply
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <div>
-
-                <h3>
-                    Quick Links
-                </h3>
-
-                <div class="footer-links">
-
-                    <a href="#why-us">
-                        Why Choose Us
-                    </a>
-
-                    <a
-                        href="ourprojects.html"                    >
-                        Our Projects
-                    </a>
-
-                    <a href="#calculator">
-                        Material Calculator
-                    </a>
-
-                    <a href="#quote">
-                        Get a Quote
-                    </a>
-
-                    <a
-                        href="contactus.html"                    >
-                        Contact Us
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="copyright">
-
-            ©
-            <span id="currentYear"></span>
-            Al-Sayed Building Materials.
-            All rights reserved.
-
-        </div>
-
-    </div>
-
-</footer>
-
-
-<!-- =========================
-     FLOATING WHATSAPP
-========================== -->
-
-<a
-    href="https://wa.me/923109871812?text=Hello%20Al-Sayed%20Building%20Materials%2C%20I%20need%20building%20materials."
-    target="_blank"
-    rel="noopener noreferrer"
-    class="floating-whatsapp"
-    aria-label="Contact Al-Sayed Building Materials on WhatsApp"
->
-    💬
-</a>
-
-
-<!-- =========================
-     MOBILE ACTION BAR
-========================== -->
-
-<div class="mobile-action-bar">
-
-    <a
-        href="tel:+923109871812"
-        class="mobile-action-call"
-    >
-        📞 Call
-    </a>
-
-    <a
-        href="https://wa.me/923109871812?text=Hello%20Al-Sayed%20Building%20Materials%2C%20I%20need%20building%20materials."
-        target="_blank"
-        rel="noopener noreferrer"
-        class="mobile-action-whatsapp"
-    >
-        💬 WhatsApp
-    </a>
-
-    <a
-        href="#quote"
-        class="mobile-action-quote"
-    >
-        📋 Get Quote
-    </a>
-
-</div>
-
-
-<script>
-
-    /* =========================
-       MOBILE MENU
-    ========================== */
-
-    const mobileMenuBtn =
-        document.getElementById(
-            "mobileMenuBtn"
-        );
-
-    const mainNav =
-        document.getElementById(
-            "mainNav"
-        );
-
-
-    if (mobileMenuBtn && mainNav) {
-
-        mobileMenuBtn.addEventListener(
-            "click",
-            function() {
-
-                const isOpen =
-                    mainNav.classList.toggle("show");
-
-                mobileMenuBtn.setAttribute(
-                    "aria-expanded",
-                    isOpen ? "true" : "false"
-                );
-
-                mobileMenuBtn.setAttribute(
-                    "aria-label",
-                    isOpen ? "Close navigation menu" : "Open navigation menu"
-                );
-
-                mobileMenuBtn.textContent =
-                    isOpen ? "✕" : "☰";
-
-            }
-        );
-
-
-        mainNav
-            .querySelectorAll("a")
-            .forEach(function(link) {
-
-                link.addEventListener(
-                    "click",
-                    function() {
-
-                        mainNav.classList.remove("show");
-
-                        mobileMenuBtn.setAttribute(
-                            "aria-expanded",
-                            "false"
-                        );
-
-                        mobileMenuBtn.setAttribute(
-                            "aria-label",
-                            "Open navigation menu"
-                        );
-
-                        mobileMenuBtn.textContent =
-                            "☰";
-
-                    }
-                );
-
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 The Demolition Experts. NTN: 849210-4. All Rights Reserved.</p>
+        <p style="margin-top: 4px; color: #555;">Serving Islamabad, Rawalpindi, Gulberg Greens, DHA & Bahria Town</p>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu & Before/After Slider -->
+    <script>
+        function toggleMenu() {
+            document.getElementById('navMenu').classList.toggle('active');
+        }
+
+        document.querySelectorAll('#navMenu a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navMenu').classList.remove('active');
             });
-
-    }
-
-
-    /* =========================
-       CLOSE MOBILE MENU OUTSIDE / ESC
-    ========================== */
-
-    document.addEventListener("click", function(event) {
-
-        if (
-            mainNav &&
-            mobileMenuBtn &&
-            mainNav.classList.contains("show") &&
-            !mainNav.contains(event.target) &&
-            !mobileMenuBtn.contains(event.target)
-        ) {
-            mainNav.classList.remove("show");
-            mobileMenuBtn.setAttribute("aria-expanded", "false");
-            mobileMenuBtn.setAttribute("aria-label", "Open navigation menu");
-            mobileMenuBtn.textContent = "☰";
-        }
-
-    });
-
-
-    document.addEventListener("keydown", function(event) {
-
-        if (
-            event.key === "Escape" &&
-            mainNav &&
-            mainNav.classList.contains("show")
-        ) {
-            mainNav.classList.remove("show");
-            mobileMenuBtn.setAttribute("aria-expanded", "false");
-            mobileMenuBtn.setAttribute("aria-label", "Open navigation menu");
-            mobileMenuBtn.textContent = "☰";
-            mobileMenuBtn.focus();
-        }
-
-    });
-
-
-    /* =========================
-       MATERIAL CALCULATOR
-    ========================== */
-
-    const plotSize =
-        document.getElementById("plotSize");
-
-    const floors =
-        document.getElementById("floors");
-
-    const resultArea =
-        document.getElementById("resultArea");
-
-    const resultBricks =
-        document.getElementById("resultBricks");
-
-    const resultCement =
-        document.getElementById("resultCement");
-
-    const resultSteel =
-        document.getElementById("resultSteel");
-
-    const resultSand =
-        document.getElementById("resultSand");
-
-    const resultCrush =
-        document.getElementById("resultCrush");
-
-    let latestEstimate = null;
-
-
-    function calculateMaterials() {
-
-        const marla =
-            parseFloat(plotSize.value);
-
-        const numberOfFloors =
-            parseInt(floors.value, 10);
-
-
-        if (
-            !marla ||
-            marla <= 0 ||
-            !numberOfFloors
-        ) {
-
-            resultArea.textContent = "—";
-            resultBricks.textContent = "—";
-            resultCement.textContent = "—";
-            resultSteel.textContent = "—";
-            resultSand.textContent = "—";
-            resultCrush.textContent = "—";
-
-            latestEstimate = null;
-
-            return;
-
-        }
-
-
-        /*
-            Approximate planning formulas.
-
-            1 Marla = 225 sq ft
-
-            Built-up area:
-            plot area × floors
-        */
-
-        const plotArea =
-            marla * 225;
-
-        const totalBuiltUpArea =
-            plotArea * numberOfFloors;
-
-
-        /*
-            Approximate material factors.
-        */
-
-        const bricks =
-            totalBuiltUpArea * 10;
-
-        const cementBags =
-            totalBuiltUpArea * 0.45;
-
-        const steelTons =
-            totalBuiltUpArea * 0.0035;
-
-        const sandCft =
-            totalBuiltUpArea * 2.8;
-
-        const crushCft =
-            totalBuiltUpArea * 1.8;
-
-
-        resultArea.textContent =
-            Math.round(
-                totalBuiltUpArea
-            ).toLocaleString()
-            + " sq ft";
-
-
-        resultBricks.textContent =
-            Math.round(
-                bricks
-            ).toLocaleString();
-
-
-        resultCement.textContent =
-            Math.round(
-                cementBags
-            ).toLocaleString()
-            + " bags";
-
-
-        resultSteel.textContent =
-            steelTons.toFixed(2)
-            + " tons";
-
-
-        resultSand.textContent =
-            Math.round(
-                sandCft
-            ).toLocaleString()
-            + " CFT";
-
-
-        resultCrush.textContent =
-            Math.round(
-                crushCft
-            ).toLocaleString()
-            + " CFT";
-
-
-        latestEstimate = {
-
-            marla: marla,
-
-            floors: numberOfFloors,
-
-            area:
-                Math.round(
-                    totalBuiltUpArea
-                ),
-
-            bricks:
-                Math.round(
-                    bricks
-                ),
-
-            cement:
-                Math.round(
-                    cementBags
-                ),
-
-            steel:
-                steelTons.toFixed(2),
-
-            sand:
-                Math.round(
-                    sandCft
-                ),
-
-            crush:
-                Math.round(
-                    crushCft
-                )
-
-        };
-
-    }
-
-
-    if (plotSize) {
-
-        plotSize.addEventListener(
-            "input",
-            calculateMaterials
-        );
-
-    }
-
-
-    if (floors) {
-
-        floors.addEventListener(
-            "change",
-            calculateMaterials
-        );
-
-    }
-
-
-    /* =========================
-       SEND ESTIMATE TO WHATSAPP
-    ========================== */
-
-    const sendEstimate =
-        document.getElementById(
-            "sendEstimate"
-        );
-
-
-    if (sendEstimate) {
-
-        sendEstimate.addEventListener(
-            "click",
-            function() {
-
-                if (!latestEstimate) {
-
-                    alert(
-                        "Please enter your plot size first."
-                    );
-
-                    if (plotSize) {
-                        plotSize.focus();
-                    }
-
-                    return;
-
-                }
-
-
-                const e =
-                    latestEstimate;
-
-
-                const message =
-                    "Hello Al-Sayed Building Materials,%0A%0A" +
-
-                    "I used your material calculator.%0A%0A" +
-
-                    "Plot Size: " +
-                    e.marla +
-                    " Marla%0A" +
-
-                    "Floors: " +
-                    e.floors +
-                    "%0A" +
-
-                    "Built-up Area: " +
-                    e.area +
-                    " sq ft%0A%0A" +
-
-                    "Approximate Requirement:%0A" +
-
-                    "Bricks: " +
-                    e.bricks +
-                    "%0A" +
-
-                    "Cement: " +
-                    e.cement +
-                    " bags%0A" +
-
-                    "Steel: " +
-                    e.steel +
-                    " tons%0A" +
-
-                    "Sand: " +
-                    e.sand +
-                    " CFT%0A" +
-
-                    "Crush: " +
-                    e.crush +
-                    " CFT%0A%0A" +
-
-                    "Please provide a quotation.";
-
-
-                window.open(
-                    "https://wa.me/923109871812?text=" +
-                    message,
-                    "_blank"
-                );
-
-            }
-        );
-
-    }
-
-
-    /* =========================
-       QUOTE FORM
-    ========================== */
-
-    const quoteForm =
-        document.getElementById(
-            "quoteForm"
-        );
-
-    const quoteStatus =
-        document.getElementById(
-            "quoteStatus"
-        );
-
-
-    if (quoteForm) {
-
-        quoteForm.addEventListener(
-            "submit",
-            function(event) {
-
-                event.preventDefault();
-
-
-                const name =
-                    document
-                        .getElementById(
-                            "customerName"
-                        )
-                        .value
-                        .trim();
-
-
-                const phone =
-                    document
-                        .getElementById(
-                            "customerPhone"
-                        )
-                        .value
-                        .trim();
-
-
-                const material =
-                    document
-                        .getElementById(
-                            "material"
-                        )
-                        .value
-                        .trim();
-
-
-                const quantity =
-                    document
-                        .getElementById(
-                            "quantity"
-                        )
-                        .value
-                        .trim();
-
-
-                const area =
-                    document
-                        .getElementById(
-                            "deliveryArea"
-                        )
-                        .value
-                        .trim();
-
-
-                const message =
-                    document
-                        .getElementById(
-                            "message"
-                        )
-                        .value
-                        .trim();
-
-
-                const emailSubject =
-                    "Building Material Quote Request - " +
-                    material;
-
-
-                const emailBody =
-
-                    "Hello Al-Sayed Building Materials,%0A%0A" +
-
-                    "I would like to request a quotation.%0A%0A" +
-
-                    "Name: " +
-                    encodeURIComponent(name) +
-                    "%0A" +
-
-                    "Phone / WhatsApp: " +
-                    encodeURIComponent(phone) +
-                    "%0A" +
-
-                    "Material: " +
-                    encodeURIComponent(material) +
-                    "%0A" +
-
-                    "Quantity: " +
-                    encodeURIComponent(quantity) +
-                    "%0A" +
-
-                    "Delivery Area: " +
-                    encodeURIComponent(area) +
-                    "%0A" +
-
-                    "Additional Details: " +
-                    encodeURIComponent(message) +
-                    "%0A%0A" +
-
-                    "Thank you.";
-
-
-                if (quoteStatus) {
-
-                    quoteStatus.textContent =
-                        "Opening your email app...";
-
-                }
-
-
-                window.location.href =
-                    "mailto:marwatzeeshan316@gmail.com" +
-
-                    "?subject=" +
-                    encodeURIComponent(
-                        emailSubject
-                    ) +
-
-                    "&body=" +
-                    emailBody;
-
-            }
-        );
-
-    }
-
-
-    /* =========================
-       CURRENT YEAR
-    ========================== */
-
-    const currentYear =
-        document.getElementById(
-            "currentYear"
-        );
-
-
-    if (currentYear) {
-
-        currentYear.textContent =
-            new Date().getFullYear();
-
-    }
-
-
-    /* =========================
-       SMOOTH INTERNAL LINKS
-    ========================== */
-
-    document
-        .querySelectorAll(
-            'a[href^="#"]'
-        )
-        .forEach(function(anchor) {
-
-            anchor.addEventListener(
-                "click",
-                function(event) {
-
-                    const targetId =
-                        this.getAttribute(
-                            "href"
-                        );
-
-
-                    if (
-                        targetId &&
-                        targetId !== "#"
-                    ) {
-
-                        const target =
-                            document.querySelector(
-                                targetId
-                            );
-
-
-                        if (target) {
-
-                            event.preventDefault();
-
-                            target.scrollIntoView({
-
-                                behavior:
-                                    "smooth",
-
-                                block:
-                                    "start"
-
-                            });
-
-                        }
-
-                    }
-
-                }
-            );
-
         });
 
-</script>
-
-
-
-<!-- FAQ structured data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What building materials do you supply?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Al-Sayed Building Materials supplies bricks, cement, sand, stone crush and other construction materials according to project requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you deliver in Islamabad and Rawalpindi?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Delivery support is available across Islamabad and Rawalpindi. Customers can contact Al-Sayed Building Materials to confirm availability and delivery for their location."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I request a quotation on WhatsApp?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Customers can send the required material, quantity and delivery area through WhatsApp for quotation support."
-      }
-    }
-  ]
-}
-</script>
-
+        // Before/After Image Slider interaction logic
+        function slideBa(slider, afterId) {
+            const afterElement = document.getElementById(afterId);
+            afterElement.style.width = slider.value + '%';
+        }
+    </script>
 </body>
 </html>
