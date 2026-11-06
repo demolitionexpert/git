@@ -1,195 +1,688 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index, follow">
-    <title>The Demolition Experts | Islamabad & Rawalpindi</title>
-    <meta name="description" content="Professional building demolition, renovation and site clearance services in Islamabad and Rawalpindi, Pakistan.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<title>The Demolition Experts | Demolition & Renovation in Islamabad</title>
 
-        body {
-            font-family: Arial, sans-serif;
-            color: #222;
-            line-height: 1.6;
-        }
+<meta name="description" content="Professional building demolition, property renovation and site clearance services in Islamabad and Rawalpindi, Pakistan. Contact The Demolition Experts for your project.">
 
-        header {
-            background: #171717;
-            color: white;
-            padding: 20px 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
+<meta name="keywords" content="demolition services Islamabad, building demolition Rawalpindi, house demolition, renovation Islamabad, site clearance Pakistan">
 
-        header h2 {
-            color: #ffb703;
-        }
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://demolitionexpertpk.github.io/">
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 10px;
-        }
+<meta property="og:title" content="The Demolition Experts | Islamabad & Rawalpindi">
+<meta property="og:description" content="Professional demolition, renovation and site clearance services.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://demolitionexpertpk.github.io/">
 
-        .hero {
-            background: linear-gradient(90deg, #171717, #343434);
-            color: white;
-            text-align: center;
-            padding: 110px 20px;
-        }
+<style>
+:root {
+    --dark: #202326;
+    --dark2: #303438;
+    --orange: #f5a623;
+    --light: #f6f7f8;
+    --white: #fff;
+    --muted: #687078;
+}
 
-        .hero h1 {
-            font-size: 42px;
-            margin-bottom: 20px;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        .hero span {
-            color: #ffb703;
-        }
+html { scroll-behavior: smooth; }
 
-        .hero p {
-            max-width: 650px;
-            margin: auto;
-        }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+    line-height: 1.7;
+}
 
-        .btn {
-            display: inline-block;
-            background: #ffb703;
-            color: #171717;
-            padding: 12px 25px;
-            margin-top: 25px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-        }
+a { text-decoration: none; }
 
-        section {
-            padding: 65px 8%;
-            text-align: center;
-        }
+.container {
+    width: min(1140px, 90%);
+    margin: auto;
+}
 
-        section h2 {
-            margin-bottom: 25px;
-            font-size: 30px;
-        }
+/* HEADER */
 
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
-        }
+header {
+    background: var(--dark);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
-        .service {
-            background: #f5f5f5;
-            padding: 30px;
-            border-radius: 8px;
-        }
+.navbar {
+    min-height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-        .service h3 {
-            color: #d18b00;
-            margin-bottom: 10px;
-        }
+.logo {
+    color: white;
+    font-size: 21px;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
 
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 15px;
-        }
+.logo span { color: var(--orange); }
 
-        .gallery img {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-            border-radius: 8px;
-        }
+.nav-links {
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}
 
-        .contact {
-            background: #f5f5f5;
-        }
+.nav-links a {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
 
-        footer {
-            background: #171717;
-            color: white;
-            text-align: center;
-            padding: 25px;
-        }
+.nav-links a:hover { color: var(--orange); }
 
-        @media(max-width: 600px) {
-            header {
-                flex-direction: column;
-            }
+.nav-cta {
+    background: var(--orange);
+    color: var(--dark) !important;
+    padding: 10px 17px;
+    border-radius: 4px;
+}
 
-            .hero h1 {
-                font-size: 30px;
-            }
-        }
-    </style>
+.menu-btn {
+    display: none;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 590px;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(90deg, rgba(20,23,25,.94), rgba(20,23,25,.58)),
+        url("renovation/demolish1.jpg") center/cover no-repeat;
+    color: white;
+}
+
+.hero-content { max-width: 720px; }
+
+.eyebrow {
+    color: var(--orange);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.hero h1 {
+    font-size: clamp(36px, 5.5vw, 62px);
+    line-height: 1.13;
+    margin: 18px 0;
+}
+
+.hero h1 span { color: var(--orange); }
+
+.hero p {
+    max-width: 620px;
+    color: #e3e3e3;
+    font-size: 17px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 24px;
+    border-radius: 4px;
+    font-weight: 700;
+    transition: .2s;
+}
+
+.btn-primary {
+    background: var(--orange);
+    color: var(--dark);
+}
+
+.btn-primary:hover { background: #ffc04e; }
+
+.btn-outline {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-outline:hover {
+    background: white;
+    color: var(--dark);
+}
+
+/* INTRO STRIP */
+
+.info-strip {
+    background: var(--orange);
+    padding: 19px 0;
+}
+
+.info-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-weight: 700;
+}
+
+/* GENERAL SECTIONS */
+
+section { padding: 85px 0; }
+
+.section-heading {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 45px;
+}
+
+.section-heading span {
+    color: #c57b00;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.section-heading h2 {
+    font-size: clamp(27px, 4vw, 38px);
+    line-height: 1.25;
+    margin: 10px 0 14px;
+}
+
+.section-heading p { color: var(--muted); }
+
+/* ABOUT */
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.about-text h2 {
+    font-size: 35px;
+    line-height: 1.25;
+    margin: 12px 0 20px;
+}
+
+.about-text p {
+    color: var(--muted);
+    margin-bottom: 15px;
+}
+
+.check-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.check-list li {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.check-list li::before {
+    content: "✓";
+    color: #c57b00;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+/* SERVICES */
+
+.services-section { background: var(--light); }
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.service-card {
+    background: white;
+    padding: 32px 26px;
+    border-radius: 7px;
+    border-bottom: 3px solid transparent;
+    box-shadow: 0 5px 25px rgba(0,0,0,.04);
+    transition: .2s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--orange);
+}
+
+.service-number {
+    color: #c57b00;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.service-card h3 {
+    margin: 12px 0;
+    font-size: 20px;
+}
+
+.service-card p {
+    color: var(--muted);
+    font-size: 15px;
+}
+
+/* PROJECT GALLERY */
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 17px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    background: #eee;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: 255px;
+    object-fit: cover;
+    transition: transform .35s;
+}
+
+.gallery-item:hover img { transform: scale(1.06); }
+
+/* WHY US */
+
+.why-section {
+    background: var(--dark);
+    color: white;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.why-card {
+    padding: 20px;
+    border-left: 3px solid var(--orange);
+}
+
+.why-card h3 {
+    margin-bottom: 10px;
+    color: var(--orange);
+}
+
+.why-card p { color: #d1d4d6; }
+
+/* CTA */
+
+.cta {
+    background: var(--orange);
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.cta h2 {
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+.cta p { margin-bottom: 20px; }
+
+.cta .btn {
+    background: var(--dark);
+    color: white;
+}
+
+/* CONTACT */
+
+.contact-section { background: var(--light); }
+
+.contact-box {
+    background: white;
+    border-radius: 8px;
+    padding: 40px;
+    text-align: center;
+    max-width: 750px;
+    margin: auto;
+    box-shadow: 0 5px 25px rgba(0,0,0,.05);
+}
+
+.contact-box p { color: var(--muted); }
+
+.contact-box h3 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #17191b;
+    color: #ddd;
+    padding: 35px 0 20px;
+    text-align: center;
+}
+
+footer strong { color: var(--orange); }
+
+footer p {
+    font-size: 14px;
+    margin: 7px 0;
+}
+
+@media(max-width: 850px) {
+    .menu-btn { display: block; }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 76px;
+        left: 0;
+        width: 100%;
+        background: var(--dark);
+        flex-direction: column;
+        padding: 22px;
+        gap: 20px;
+    }
+
+    .nav-links.active { display: flex; }
+
+    .about-grid { grid-template-columns: 1fr; }
+
+    .services-grid, .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 580px) {
+    .hero { min-height: 520px; }
+
+    .hero p { font-size: 15px; }
+
+    section { padding: 60px 0; }
+
+    .services-grid, .why-grid, .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-item img { height: 250px; }
+
+    .about-image img { height: 300px; }
+
+    .info-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-box { padding: 27px 18px; }
+}
+</style>
 </head>
 
 <body>
 
 <header>
-    <h2>DEMOLITION EXPERTS</h2>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <div class="container navbar">
+        <a class="logo" href="#home">THE <span>DEMOLITION</span> EXPERTS</a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="nav-cta">Contact Us</a>
+        </nav>
+    </div>
 </header>
 
+<main>
+
 <div class="hero" id="home">
-    <h1>Professional <span>Demolition</span> Services</h1>
-    <p>Reliable building demolition, renovation and site clearance services in Islamabad and Rawalpindi.</p>
-    <a class="btn" href="#contact">Contact Us</a>
+    <div class="container">
+        <div class="hero-content">
+            <div class="eyebrow">Demolition • Renovation • Site Clearance</div>
+            <h1>Building New Possibilities Through <span>Expert Demolition</span></h1>
+            <p>
+                Professional building demolition, property renovation and
+                site clearance services across Islamabad and Rawalpindi.
+                We help turn your project plans into reality.
+            </p>
+            <div class="buttons">
+                <a href="#services" class="btn btn-primary">Explore Our Services</a>
+                <a href="#projects" class="btn btn-outline">View Our Projects</a>
+            </div>
+        </div>
+    </div>
 </div>
 
-<section id="services">
-    <h2>Our Services</h2>
-    <div class="services">
-        <div class="service">
-            <h3>Building Demolition</h3>
-            <p>Professional building demolition and project management.</p>
+<div class="info-strip">
+    <div class="container info-inner">
+        <span>Professional Project Services</span>
+        <span>Islamabad & Rawalpindi</span>
+        <span>Demolition & Renovation</span>
+    </div>
+</div>
+
+<section id="about">
+    <div class="container about-grid">
+        <div class="about-image">
+            <img src="renovation/renove1.jpg"
+                 alt="Property renovation project">
         </div>
-        <div class="service">
-            <h3>Home Renovation</h3>
-            <p>Residential renovation and improvement services.</p>
+
+        <div class="about-text">
+            <div class="eyebrow">Who We Are</div>
+            <h2>Your Project Deserves Professional Attention</h2>
+            <p>
+                The Demolition Experts provide building demolition,
+                renovation and site clearance services in Islamabad
+                and Rawalpindi.
+            </p>
+            <p>
+                From property improvement to demolition projects,
+                our focus is on careful planning, organized work
+                and professional project execution.
+            </p>
+
+            <ul class="check-list">
+                <li>Building demolition services</li>
+                <li>Residential renovation projects</li>
+                <li>Site clearance and preparation</li>
+                <li>Service across Islamabad and Rawalpindi</li>
+            </ul>
         </div>
-        <div class="service">
-            <h3>Site Clearance</h3>
-            <p>Construction site clearance and debris management.</p>
+    </div>
+</section>
+
+<section class="services-section" id="services">
+    <div class="container">
+        <div class="section-heading">
+            <span>What We Do</span>
+            <h2>Our Professional Services</h2>
+            <p>Services to support your property and construction projects.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-number">01</div>
+                <h3>Building Demolition</h3>
+                <p>Building demolition services with project planning and organized site operations.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-number">02</div>
+                <h3>House Demolition</h3>
+                <p>Demolition services for residential property redevelopment projects.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-number">03</div>
+                <h3>Property Renovation</h3>
+                <p>Property improvement and renovation services for residential spaces.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-number">04</div>
+                <h3>Interior Renovation</h3>
+                <p>Interior improvement and renovation work to refresh existing spaces.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-number">05</div>
+                <h3>Site Clearance</h3>
+                <p>Site clearance and preparation services for upcoming projects.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-number">06</div>
+                <h3>Project Support</h3>
+                <p>Support for property owners planning demolition and renovation work.</p>
+            </div>
         </div>
     </div>
 </section>
 
 <section id="projects">
-    <h2>Our Recent Projects</h2>
-    <div class="gallery">
-        <img src="renovation/demolish1.jpg" alt="Demolition project">
-        <img src="renovation/demolish2.jpg" alt="Building demolition project">
-        <img src="renovation/renove1.jpg" alt="Renovation project">
-        <img src="renovation/renove2.jpg" alt="Property renovation">
+    <div class="container">
+        <div class="section-heading">
+            <span>Our Work</span>
+            <h2>Demolition & Renovation Gallery</h2>
+            <p>Explore photographs from our project image collection.</p>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="renovation/demolish1.jpg" alt="Building demolition project 1" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/demolish2.jpg" alt="Building demolition project 2" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/demolish3.jpg" alt="Building demolition project 3" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/demolish4.jpg" alt="Building demolition project 4" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/demolish5.jpg" alt="Building demolition project 5" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/demolish6.jpg" alt="Building demolition project 6" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/renove1.jpg" alt="Property renovation project 1" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/renove2.jpg" alt="Property renovation project 2" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/renove3.jpg" alt="Property renovation project 3" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/renove4.jpg" alt="Property renovation project 4" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/renove5.jpg" alt="Property renovation project 5" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/renove6.jpg" alt="Property renovation project 6" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/renove7.jpg" alt="Property renovation project 7" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/renove8.jpg" alt="Property renovation project 8" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/renove9.jpg" alt="Property renovation project 9" loading="lazy"></div>
+            <div class="gallery-item"><img src="renovation/renove10.jpg" alt="Property renovation project 10" loading="lazy"></div>
+        </div>
     </div>
 </section>
 
-<section class="contact" id="contact">
-    <h2>Contact The Demolition Experts</h2>
-    <p>Serving Islamabad and Rawalpindi, Pakistan.</p>
-    <a class="btn" href="https://wa.me/923000000000">Contact on WhatsApp</a>
+<section class="why-section">
+    <div class="container">
+        <div class="section-heading">
+            <span>Why Choose Us</span>
+            <h2 style="color:white;">A Professional Approach to Every Project</h2>
+            <p style="color:#d1d4d6;">We focus on clear communication and organized project work.</p>
+        </div>
+
+        <div class="why-grid">
+            <div class="why-card">
+                <h3>Project Planning</h3>
+                <p>Understanding project requirements before work begins.</p>
+            </div>
+
+            <div class="why-card">
+                <h3>Clear Communication</h3>
+                <p>Keeping clients informed throughout the project.</p>
+            </div>
+
+            <div class="why-card">
+                <h3>Local Service</h3>
+                <p>Serving property owners in Islamabad and Rawalpindi.</p>
+            </div>
+        </div>
+    </div>
 </section>
 
+<div class="cta">
+    <div class="container">
+        <h2>Planning a Demolition or Renovation Project?</h2>
+        <p>Get in touch to discuss your project requirements.</p>
+        <a href="#contact" class="btn">Discuss Your Project</a>
+    </div>
+</div>
+
+<section class="contact-section" id="contact">
+    <div class="container">
+        <div class="section-heading">
+            <span>Get In Touch</span>
+            <h2>Let's Discuss Your Project</h2>
+            <p>Contact us about demolition, renovation and site clearance services.</p>
+        </div>
+
+        <div class="contact-box">
+            <h3>The Demolition Experts</h3>
+            <p>Serving Islamabad and Rawalpindi, Pakistan.</p>
+            <p>Tell us about your property, project location and requirements.</p>
+        </div>
+    </div>
+</section>
+
+</main>
+
 <footer>
-    <p>© 2026 The Demolition Experts. All Rights Reserved.</p>
+    <div class="container">
+        <h3>THE <strong>DEMOLITION EXPERTS</strong></h3>
+        <p>Demolition | Renovation | Site Clearance</p>
+        <p>Islamabad & Rawalpindi, Pakistan</p>
+        <p>© 2026 The Demolition Experts. All Rights Reserved.</p>
+    </div>
 </footer>
+
+<script>
+const menuBtn = document.getElementById("menuBtn");
+const navLinks = document.getElementById("navLinks");
+
+menuBtn.addEventListener("click", function () {
+    navLinks.classList.toggle("active");
+});
+
+document.querySelectorAll(".nav-links a").forEach(function(link) {
+    link.addEventListener("click", function() {
+        navLinks.classList.remove("active");
+    });
+});
+</script>
 
 </body>
 </html>
